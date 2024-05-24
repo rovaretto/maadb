@@ -1,0 +1,1392 @@
+set I :=
+B-Ge-i-5-916.a5 
+M-Ge-i-5-987.0 
+S-Ge-i-5-98c.1 
+B-Ge-o-5-897.0 
+M-Ge-o-5-897.0 
+S-Ge-o-5-897.0 
+B-Ge-i-5-916.a4 
+M-Ge-i-5-916.a5 
+S-Ge-i-5-983 
+B-Ge-o-5-640.2 
+M-Ge-o-5-640.2 
+S-Ge-o-5-640.2 
+B-Ge-i-5-916.a3 
+M-Ge-i-5-916.a4 
+S-Ge-i-5-932.43 
+B-Ge-o-5-534.1 
+M-Ge-o-5-624.4 
+S-Ge-o-5-624.4 
+B-Ge-i-5-916.a1 
+M-Ge-i-5-916.a3 
+S-Ge-i-5-932.13 
+B-Ge-o-5-534.03 
+M-Ge-o-5-534.1 
+S-Ge-o-5-535.1 
+B-Ge-i-5-916.a0 
+M-Ge-i-5-916.a1 
+S-Ge-i-5-932.12 
+B-Ge-o-5-530.33 
+M-Ge-o-5-530.33 
+S-Ge-o-5-534.35 
+B-Ge-i-5-900.1b 
+M-Ge-i-5-916.a0 
+S-Ge-i-5-916.a5 
+B-Ge-o-5-530.32 
+M-Ge-o-5-530.00 
+S-Ge-o-5-534.1 
+B-Ge-i-5-897.1 
+M-Ge-i-5-911.0b 
+S-Ge-i-5-916.a4 
+B-Ge-o-5-493.2 
+M-Ge-o-5-492.00 
+S-Ge-o-5-534.03 
+B-Ge-i-5-897.0 
+M-Ge-i-5-900.1b 
+S-Ge-i-5-916.a3 
+B-Ge-o-5-492.00 
+M-Ge-o-5-399.7 
+S-Ge-o-5-530.33 
+B-Ge-i-5-896.1g 
+M-Ge-i-5-897.0 
+S-Ge-i-5-916.a2 
+B-Ge-o-5-399.7 
+M-Ge-o-5-399.5 
+S-Ge-o-5-530.32 
+B-Gy-i-5-916.a0 
+M-Gy-i-5-872.1 
+S-Gy-i-8-911 
+B-Gy-o-5-870.90 
+M-Gy-o-5-870.90 
+S-Gy-o-5-870.a1 
+B-Gy-i-5-872.1 
+M-Gy-i-5-872.0 
+S-Gy-i-5-884.2 
+B-Gy-o-5-751 
+M-Gy-o-5-751 
+S-Gy-o-5-870.a0 
+B-Gy-i-5-872.0 
+M-Gy-i-5-870.a3 
+S-Gy-i-5-881.1 
+B-Gy-o-5-712.0 
+M-Gy-o-5-711.1 
+S-Gy-o-5-870.90 
+B-Gy-i-5-870.a2 
+M-Gy-i-5-870.a2 
+S-Gy-i-5-877.20 
+B-Gy-o-5-711.1 
+M-Gy-o-5-691 
+S-Gy-o-5-751 
+B-Gy-i-5-870.a1 
+M-Gy-i-5-870.a1 
+S-Gy-i-5-877.0 
+B-Gy-o-5-691 
+M-Gy-o-5-690.2 
+S-Gy-o-5-712.0 
+B-Gy-i-5-870.a0 
+M-Gy-i-5-870.a0 
+S-Gy-i-5-872.1 
+B-Gy-o-5-690.2 
+M-Gy-o-5-690.1 
+S-Gy-o-5-711.1 
+B-Gy-i-5-870.91 
+M-Gy-i-5-870.91 
+S-Gy-i-5-872.0 
+B-Gy-o-5-690.1 
+M-Gy-o-5-690.0 
+S-Gy-o-5-702.1 
+B-Gy-i-5-870.90 
+M-Gy-i-5-870.90 
+S-Gy-i-5-870.a5 
+B-Gy-o-5-690.0 
+M-Gy-o-5-681.83 
+S-Gy-o-5-691 
+B-Ot-i-5-300.7 
+M-Ot-i-5-984 
+S-Ot-i-5-766.3 
+B-Ot-o-5-300.5 
+M-Ot-o-5-300.2 
+S-Ot-o-5-285.1 
+B-Ot-i-5-300.2 
+M-Ot-i-5-983 
+S-Ot-i-5-403.03 
+B-Ot-o-5-300.2 
+M-Ot-o-5-285.1 
+S-Ot-o-5-285.0 
+B-Ot-i-5-289.01 
+M-Ot-i-5-892.05 
+S-Ot-i-5-403.01 
+B-Ot-o-5-285.1 
+M-Ot-o-5-285.0 
+S-Ot-o-5-216.0 
+B-Ot-i-5-285.0 
+M-Ot-i-5-771.10 
+S-Ot-i-5-403.00 
+B-Ot-o-5-285.0 
+M-Ot-o-5-281.5 
+S-Ot-o-5-215.3 
+B-Ot-i-5-281.5 
+M-Ot-i-5-766.3 
+S-Ot-i-5-402.0 
+B-Ot-o-5-281.5 
+M-Ot-o-5-216.1 
+S-Ot-o-5-200.5 
+B-Ot-i-5-281.0 
+M-Ot-i-5-403.04 
+S-Ot-i-5-401.00 
+B-Ot-o-5-216.0 
+M-Ot-o-5-216.0 
+S-Ot-o-5-200.4 
+B-Ot-i-5-280.0 
+M-Ot-i-5-403.03 
+S-Ot-i-5-319.9 
+B-Ot-o-5-215.3 
+M-Ot-o-5-200.5 
+S-Ot-o-5-194.0 
+B-Ot-i-5-262.04 
+M-Ot-i-5-403.02 
+S-Ot-i-5-316.2 
+B-Ot-o-5-202.2 
+M-Ot-o-5-200.4 
+S-Ot-o-5-184.2 
+B-Tr-i-5-916.a1 
+M-Tr-i-5-916.a1 
+S-Tr-i-5-986.x 
+B-Tr-o-5-859.12 
+M-Tr-o-5-812.5 
+S-Tr-o-5-983 
+B-Tr-i-5-916.a0 
+M-Tr-i-5-916.a0 
+S-Tr-i-5-984 
+B-Tr-o-5-849.0 
+M-Tr-o-5-790.2b 
+S-Tr-o-5-849.0 
+B-Tr-i-5-900.1f 
+M-Tr-i-5-896.1f 
+S-Tr-i-5-983 
+B-Tr-o-5-841.15 
+M-Tr-o-5-787.k6 
+S-Tr-o-5-841.14 
+B-Tr-i-5-896.1f 
+M-Tr-i-5-896.1e 
+S-Tr-i-5-931.0 
+B-Tr-o-5-841.14 
+M-Tr-o-5-787.k0 
+S-Tr-o-5-812.5 
+B-Tr-i-5-896.1e 
+M-Tr-i-5-869.2 
+S-Tr-i-5-916.a1 
+B-Tr-o-5-812.eh 
+M-Tr-o-5-787.gb 
+S-Tr-o-5-810.0h 
+B-Tr-i-5-896.17 
+M-Tr-i-5-869.1 
+S-Tr-i-5-916.a0 
+B-Tr-o-5-812.5 
+M-Tr-o-5-787.3r 
+S-Tr-o-5-790.2b 
+B-Tr-i-5-892.1e 
+M-Tr-i-5-855.19 
+S-Tr-i-5-902.4f 
+B-Tr-o-5-811.2h 
+M-Tr-o-5-787.36 
+S-Tr-o-5-790.1c 
+B-Tr-i-5-892.0f 
+M-Tr-i-5-855.18 
+S-Tr-i-5-900.1f 
+B-Tr-o-5-811.0h 
+M-Tr-o-5-787.30 
+S-Tr-o-5-790.1b 
+B-Tr-i-5-892.0e 
+M-Tr-i-5-855.02 
+S-Tr-i-5-896.1g 
+B-Tr-o-5-790.2b 
+M-Tr-o-5-787.1r 
+S-Tr-o-5-790.16 
+B-Tr-i-5-869.1 
+M-Tr-i-5-83b.53 
+S-Tr-i-5-896.1f 
+B-Tr-o-5-790.1c 
+M-Tr-o-5-787.1n 
+S-Tr-o-5-787.k6 
+;
+set K :=
+A
+B
+C
+D
+;
+
+set T :=
+Lunedi
+Martedi
+Mercoledi
+Giovedi
+Venerdi
+;
+
+set J :=
+General
+Gyn_Obstetrics
+Otolaryngology
+Trauma
+;
+
+param tau :=
+(A, Lunedi, General) 1
+(A, Lunedi, Gyn_Obstetrics) 0
+(A, Lunedi, Otolaryngology) 0
+(A, Lunedi, Trauma) 0
+(A, Martedi, General) 1
+(A, Martedi, Gyn_Obstetrics) 0
+(A, Martedi, Otolaryngology) 0
+(A, Martedi, Trauma) 0
+(A, Mercoledi, General) 1
+(A, Mercoledi, Gyn_Obstetrics) 0
+(A, Mercoledi, Otolaryngology) 0
+(A, Mercoledi, Trauma) 0
+(A, Giovedi, General) 1
+(A, Giovedi, Gyn_Obstetrics) 0
+(A, Giovedi, Otolaryngology) 0
+(A, Giovedi, Trauma) 0
+(A, Venerdi, General) 1
+(A, Venerdi, Gyn_Obstetrics) 0
+(A, Venerdi, Otolaryngology) 0
+(A, Venerdi, Trauma) 0
+(B, Lunedi, General) 0
+(B, Lunedi, Gyn_Obstetrics) 1
+(B, Lunedi, Otolaryngology) 0
+(B, Lunedi, Trauma) 0
+(B, Martedi, General) 0
+(B, Martedi, Gyn_Obstetrics) 1
+(B, Martedi, Otolaryngology) 0
+(B, Martedi, Trauma) 0
+(B, Mercoledi, General) 0
+(B, Mercoledi, Gyn_Obstetrics) 1
+(B, Mercoledi, Otolaryngology) 0
+(B, Mercoledi, Trauma) 0
+(B, Giovedi, General) 0
+(B, Giovedi, Gyn_Obstetrics) 1
+(B, Giovedi, Otolaryngology) 0
+(B, Giovedi, Trauma) 0
+(B, Venerdi, General) 0
+(B, Venerdi, Gyn_Obstetrics) 1
+(B, Venerdi, Otolaryngology) 0
+(B, Venerdi, Trauma) 0
+(C, Lunedi, General) 0
+(C, Lunedi, Gyn_Obstetrics) 0
+(C, Lunedi, Otolaryngology) 1
+(C, Lunedi, Trauma) 0
+(C, Martedi, General) 0
+(C, Martedi, Gyn_Obstetrics) 0
+(C, Martedi, Otolaryngology) 1
+(C, Martedi, Trauma) 0
+(C, Mercoledi, General) 0
+(C, Mercoledi, Gyn_Obstetrics) 0
+(C, Mercoledi, Otolaryngology) 1
+(C, Mercoledi, Trauma) 0
+(C, Giovedi, General) 0
+(C, Giovedi, Gyn_Obstetrics) 0
+(C, Giovedi, Otolaryngology) 1
+(C, Giovedi, Trauma) 0
+(C, Venerdi, General) 0
+(C, Venerdi, Gyn_Obstetrics) 0
+(C, Venerdi, Otolaryngology) 1
+(C, Venerdi, Trauma) 0
+(D, Lunedi, General) 0
+(D, Lunedi, Gyn_Obstetrics) 0
+(D, Lunedi, Otolaryngology) 0
+(D, Lunedi, Trauma) 1
+(D, Martedi, General) 0
+(D, Martedi, Gyn_Obstetrics) 0
+(D, Martedi, Otolaryngology) 0
+(D, Martedi, Trauma) 1
+(D, Mercoledi, General) 0
+(D, Mercoledi, Gyn_Obstetrics) 0
+(D, Mercoledi, Otolaryngology) 0
+(D, Mercoledi, Trauma) 1
+(D, Giovedi, General) 0
+(D, Giovedi, Gyn_Obstetrics) 0
+(D, Giovedi, Otolaryngology) 0
+(D, Giovedi, Trauma) 1
+(D, Venerdi, General) 0
+(D, Venerdi, Gyn_Obstetrics) 0
+(D, Venerdi, Otolaryngology) 0
+(D, Venerdi, Trauma) 1
+;
+param s :=
+(A, Lunedi) 480
+(A, Martedi) 480
+(A, Mercoledi) 480
+(A, Giovedi) 480
+(A, Venerdi) 480
+(B, Lunedi) 480
+(B, Martedi) 480
+(B, Mercoledi) 480
+(B, Giovedi) 480
+(B, Venerdi) 480
+(C, Lunedi) 480
+(C, Martedi) 480
+(C, Mercoledi) 480
+(C, Giovedi) 480
+(C, Venerdi) 480
+(D, Lunedi) 480
+(D, Martedi) 480
+(D, Mercoledi) 480
+(D, Giovedi) 480
+(D, Venerdi) 480
+;
+param p :=
+B-Ge-i-5-916.a5 68.0
+M-Ge-i-5-987.0 238.0
+S-Ge-i-5-98c.1 243.0
+B-Ge-o-5-897.0 35.0
+M-Ge-o-5-897.0 67.0
+S-Ge-o-5-897.0 45.0
+B-Ge-i-5-916.a4 34.0
+M-Ge-i-5-916.a5 44.0
+S-Ge-i-5-983 197.0
+B-Ge-o-5-640.2 46.0
+M-Ge-o-5-640.2 53.0
+S-Ge-o-5-640.2 43.0
+B-Ge-i-5-916.a3 79.0
+M-Ge-i-5-916.a4 63.0
+S-Ge-i-5-932.43 92.0
+B-Ge-o-5-534.1 64.0
+M-Ge-o-5-624.4 95.0
+S-Ge-o-5-624.4 44.0
+B-Ge-i-5-916.a1 56.0
+M-Ge-i-5-916.a3 62.0
+S-Ge-i-5-932.13 107.0
+B-Ge-o-5-534.03 52.0
+M-Ge-o-5-534.1 46.0
+S-Ge-o-5-535.1 44.0
+B-Ge-i-5-916.a0 53.0
+M-Ge-i-5-916.a1 22.0
+S-Ge-i-5-932.12 135.0
+B-Ge-o-5-530.33 91.0
+M-Ge-o-5-530.33 108.0
+S-Ge-o-5-534.35 62.0
+B-Ge-i-5-900.1b 53.0
+M-Ge-i-5-916.a0 67.0
+S-Ge-i-5-916.a5 61.0
+B-Ge-o-5-530.32 68.0
+M-Ge-o-5-530.00 66.0
+S-Ge-o-5-534.1 80.0
+B-Ge-i-5-897.1 66.0
+M-Ge-i-5-911.0b 104.0
+S-Ge-i-5-916.a4 64.0
+B-Ge-o-5-493.2 44.0
+M-Ge-o-5-492.00 31.0
+S-Ge-o-5-534.03 72.0
+B-Ge-i-5-897.0 73.0
+M-Ge-i-5-900.1b 64.0
+S-Ge-i-5-916.a3 79.0
+B-Ge-o-5-492.00 45.0
+M-Ge-o-5-399.7 48.0
+S-Ge-o-5-530.33 93.0
+B-Ge-i-5-896.1g 33.0
+M-Ge-i-5-897.0 67.0
+S-Ge-i-5-916.a2 38.0
+B-Ge-o-5-399.7 32.0
+M-Ge-o-5-399.5 98.0
+S-Ge-o-5-530.32 91.0
+B-Gy-i-5-916.a0 74.0
+M-Gy-i-5-872.1 113.0
+S-Gy-i-8-911 128.0
+B-Gy-o-5-870.90 63.0
+M-Gy-o-5-870.90 82.0
+S-Gy-o-5-870.a1 101.0
+B-Gy-i-5-872.1 72.0
+M-Gy-i-5-872.0 141.0
+S-Gy-i-5-884.2 157.0
+B-Gy-o-5-751 21.0
+M-Gy-o-5-751 35.0
+S-Gy-o-5-870.a0 44.0
+B-Gy-i-5-872.0 104.0
+M-Gy-i-5-870.a3 169.0
+S-Gy-i-5-881.1 24.0
+B-Gy-o-5-712.0 24.0
+M-Gy-o-5-711.1 41.0
+S-Gy-o-5-870.90 42.0
+B-Gy-i-5-870.a2 112.0
+M-Gy-i-5-870.a2 93.0
+S-Gy-i-5-877.20 131.0
+B-Gy-o-5-711.1 47.0
+M-Gy-o-5-691 41.0
+S-Gy-o-5-751 46.0
+B-Gy-i-5-870.a1 121.0
+M-Gy-i-5-870.a1 133.0
+S-Gy-i-5-877.0 107.0
+B-Gy-o-5-691 46.0
+M-Gy-o-5-690.2 21.0
+S-Gy-o-5-712.0 43.0
+B-Gy-i-5-870.a0 135.0
+M-Gy-i-5-870.a0 68.0
+S-Gy-i-5-872.1 118.0
+B-Gy-o-5-690.2 29.0
+M-Gy-o-5-690.1 34.0
+S-Gy-o-5-711.1 35.0
+B-Gy-i-5-870.91 61.0
+M-Gy-i-5-870.91 100.0
+S-Gy-i-5-872.0 167.0
+B-Gy-o-5-690.1 30.0
+M-Gy-o-5-690.0 46.0
+S-Gy-o-5-702.1 25.0
+B-Gy-i-5-870.90 116.0
+M-Gy-i-5-870.90 75.0
+S-Gy-i-5-870.a5 221.0
+B-Gy-o-5-690.0 52.0
+M-Gy-o-5-681.83 47.0
+S-Gy-o-5-691 17.0
+B-Ot-i-5-300.7 52.0
+M-Ot-i-5-984 36.0
+S-Ot-i-5-766.3 98.0
+B-Ot-o-5-300.5 90.0
+M-Ot-o-5-300.2 69.0
+S-Ot-o-5-285.1 57.0
+B-Ot-i-5-300.2 54.0
+M-Ot-i-5-983 57.0
+S-Ot-i-5-403.03 174.0
+B-Ot-o-5-300.2 71.0
+M-Ot-o-5-285.1 45.0
+S-Ot-o-5-285.0 47.0
+B-Ot-i-5-289.01 72.0
+M-Ot-i-5-892.05 89.0
+S-Ot-i-5-403.01 100.0
+B-Ot-o-5-285.1 70.0
+M-Ot-o-5-285.0 71.0
+S-Ot-o-5-216.0 29.0
+B-Ot-i-5-285.0 129.0
+M-Ot-i-5-771.10 263.0
+S-Ot-i-5-403.00 130.0
+B-Ot-o-5-285.0 55.0
+M-Ot-o-5-281.5 36.0
+S-Ot-o-5-215.3 30.0
+B-Ot-i-5-281.5 108.0
+M-Ot-i-5-766.3 53.0
+S-Ot-i-5-402.0 79.0
+B-Ot-o-5-281.5 89.0
+M-Ot-o-5-216.1 42.0
+S-Ot-o-5-200.5 38.0
+B-Ot-i-5-281.0 146.0
+M-Ot-i-5-403.04 166.0
+S-Ot-i-5-401.00 56.0
+B-Ot-o-5-216.0 33.0
+M-Ot-o-5-216.0 34.0
+S-Ot-o-5-200.4 66.0
+B-Ot-i-5-280.0 65.0
+M-Ot-i-5-403.03 88.0
+S-Ot-i-5-319.9 42.0
+B-Ot-o-5-215.3 70.0
+M-Ot-o-5-200.5 58.0
+S-Ot-o-5-194.0 23.0
+B-Ot-i-5-262.04 234.0
+M-Ot-i-5-403.02 61.0
+S-Ot-i-5-316.2 84.0
+B-Ot-o-5-202.2 45.0
+M-Ot-o-5-200.4 71.0
+S-Ot-o-5-184.2 162.0
+B-Tr-i-5-916.a1 80.0
+M-Tr-i-5-916.a1 63.0
+S-Tr-i-5-986.x 130.0
+B-Tr-o-5-859.12 36.0
+M-Tr-o-5-812.5 74.0
+S-Tr-o-5-983 61.0
+B-Tr-i-5-916.a0 42.0
+M-Tr-i-5-916.a0 74.0
+S-Tr-i-5-984 104.0
+B-Tr-o-5-849.0 29.0
+M-Tr-o-5-790.2b 74.0
+S-Tr-o-5-849.0 92.0
+B-Tr-i-5-900.1f 32.0
+M-Tr-i-5-896.1f 81.0
+S-Tr-i-5-983 42.0
+B-Tr-o-5-841.15 37.0
+M-Tr-o-5-787.k6 104.0
+S-Tr-o-5-841.14 66.0
+B-Tr-i-5-896.1f 47.0
+M-Tr-i-5-896.1e 96.0
+S-Tr-i-5-931.0 93.0
+B-Tr-o-5-841.14 50.0
+M-Tr-o-5-787.k0 68.0
+S-Tr-o-5-812.5 82.0
+B-Tr-i-5-896.1e 60.0
+M-Tr-i-5-869.2 57.0
+S-Tr-i-5-916.a1 47.0
+B-Tr-o-5-812.eh 46.0
+M-Tr-o-5-787.gb 36.0
+S-Tr-o-5-810.0h 85.0
+B-Tr-i-5-896.17 70.0
+M-Tr-i-5-869.1 76.0
+S-Tr-i-5-916.a0 53.0
+B-Tr-o-5-812.5 64.0
+M-Tr-o-5-787.3r 47.0
+S-Tr-o-5-790.2b 34.0
+B-Tr-i-5-892.1e 49.0
+M-Tr-i-5-855.19 99.0
+S-Tr-i-5-902.4f 81.0
+B-Tr-o-5-811.2h 66.0
+M-Tr-o-5-787.36 72.0
+S-Tr-o-5-790.1c 94.0
+B-Tr-i-5-892.0f 51.0
+M-Tr-i-5-855.18 118.0
+S-Tr-i-5-900.1f 67.0
+B-Tr-o-5-811.0h 75.0
+M-Tr-o-5-787.30 61.0
+S-Tr-o-5-790.1b 43.0
+B-Tr-i-5-892.0e 46.0
+M-Tr-i-5-855.02 79.0
+S-Tr-i-5-896.1g 54.0
+B-Tr-o-5-790.2b 42.0
+M-Tr-o-5-787.1r 56.0
+S-Tr-o-5-790.16 56.0
+B-Tr-i-5-869.1 47.0
+M-Tr-i-5-83b.53 118.0
+S-Tr-i-5-896.1f 70.0
+B-Tr-o-5-790.1c 61.0
+M-Tr-o-5-787.1n 66.0
+S-Tr-o-5-787.k6 83.0
+;
+param q :=
+(B-Ge-i-5-916.a5, General) 1
+(B-Ge-i-5-916.a5, Gyn_Obstetrics) 0
+(B-Ge-i-5-916.a5, Otolaryngology) 0
+(B-Ge-i-5-916.a5, Trauma) 0
+(M-Ge-i-5-987.0, General) 1
+(M-Ge-i-5-987.0, Gyn_Obstetrics) 0
+(M-Ge-i-5-987.0, Otolaryngology) 0
+(M-Ge-i-5-987.0, Trauma) 0
+(S-Ge-i-5-98c.1, General) 1
+(S-Ge-i-5-98c.1, Gyn_Obstetrics) 0
+(S-Ge-i-5-98c.1, Otolaryngology) 0
+(S-Ge-i-5-98c.1, Trauma) 0
+(B-Ge-o-5-897.0, General) 1
+(B-Ge-o-5-897.0, Gyn_Obstetrics) 0
+(B-Ge-o-5-897.0, Otolaryngology) 0
+(B-Ge-o-5-897.0, Trauma) 0
+(M-Ge-o-5-897.0, General) 1
+(M-Ge-o-5-897.0, Gyn_Obstetrics) 0
+(M-Ge-o-5-897.0, Otolaryngology) 0
+(M-Ge-o-5-897.0, Trauma) 0
+(S-Ge-o-5-897.0, General) 1
+(S-Ge-o-5-897.0, Gyn_Obstetrics) 0
+(S-Ge-o-5-897.0, Otolaryngology) 0
+(S-Ge-o-5-897.0, Trauma) 0
+(B-Ge-i-5-916.a4, General) 1
+(B-Ge-i-5-916.a4, Gyn_Obstetrics) 0
+(B-Ge-i-5-916.a4, Otolaryngology) 0
+(B-Ge-i-5-916.a4, Trauma) 0
+(M-Ge-i-5-916.a5, General) 1
+(M-Ge-i-5-916.a5, Gyn_Obstetrics) 0
+(M-Ge-i-5-916.a5, Otolaryngology) 0
+(M-Ge-i-5-916.a5, Trauma) 0
+(S-Ge-i-5-983, General) 1
+(S-Ge-i-5-983, Gyn_Obstetrics) 0
+(S-Ge-i-5-983, Otolaryngology) 0
+(S-Ge-i-5-983, Trauma) 0
+(B-Ge-o-5-640.2, General) 1
+(B-Ge-o-5-640.2, Gyn_Obstetrics) 0
+(B-Ge-o-5-640.2, Otolaryngology) 0
+(B-Ge-o-5-640.2, Trauma) 0
+(M-Ge-o-5-640.2, General) 1
+(M-Ge-o-5-640.2, Gyn_Obstetrics) 0
+(M-Ge-o-5-640.2, Otolaryngology) 0
+(M-Ge-o-5-640.2, Trauma) 0
+(S-Ge-o-5-640.2, General) 1
+(S-Ge-o-5-640.2, Gyn_Obstetrics) 0
+(S-Ge-o-5-640.2, Otolaryngology) 0
+(S-Ge-o-5-640.2, Trauma) 0
+(B-Ge-i-5-916.a3, General) 1
+(B-Ge-i-5-916.a3, Gyn_Obstetrics) 0
+(B-Ge-i-5-916.a3, Otolaryngology) 0
+(B-Ge-i-5-916.a3, Trauma) 0
+(M-Ge-i-5-916.a4, General) 1
+(M-Ge-i-5-916.a4, Gyn_Obstetrics) 0
+(M-Ge-i-5-916.a4, Otolaryngology) 0
+(M-Ge-i-5-916.a4, Trauma) 0
+(S-Ge-i-5-932.43, General) 1
+(S-Ge-i-5-932.43, Gyn_Obstetrics) 0
+(S-Ge-i-5-932.43, Otolaryngology) 0
+(S-Ge-i-5-932.43, Trauma) 0
+(B-Ge-o-5-534.1, General) 1
+(B-Ge-o-5-534.1, Gyn_Obstetrics) 0
+(B-Ge-o-5-534.1, Otolaryngology) 0
+(B-Ge-o-5-534.1, Trauma) 0
+(M-Ge-o-5-624.4, General) 1
+(M-Ge-o-5-624.4, Gyn_Obstetrics) 0
+(M-Ge-o-5-624.4, Otolaryngology) 0
+(M-Ge-o-5-624.4, Trauma) 0
+(S-Ge-o-5-624.4, General) 1
+(S-Ge-o-5-624.4, Gyn_Obstetrics) 0
+(S-Ge-o-5-624.4, Otolaryngology) 0
+(S-Ge-o-5-624.4, Trauma) 0
+(B-Ge-i-5-916.a1, General) 1
+(B-Ge-i-5-916.a1, Gyn_Obstetrics) 0
+(B-Ge-i-5-916.a1, Otolaryngology) 0
+(B-Ge-i-5-916.a1, Trauma) 0
+(M-Ge-i-5-916.a3, General) 1
+(M-Ge-i-5-916.a3, Gyn_Obstetrics) 0
+(M-Ge-i-5-916.a3, Otolaryngology) 0
+(M-Ge-i-5-916.a3, Trauma) 0
+(S-Ge-i-5-932.13, General) 1
+(S-Ge-i-5-932.13, Gyn_Obstetrics) 0
+(S-Ge-i-5-932.13, Otolaryngology) 0
+(S-Ge-i-5-932.13, Trauma) 0
+(B-Ge-o-5-534.03, General) 1
+(B-Ge-o-5-534.03, Gyn_Obstetrics) 0
+(B-Ge-o-5-534.03, Otolaryngology) 0
+(B-Ge-o-5-534.03, Trauma) 0
+(M-Ge-o-5-534.1, General) 1
+(M-Ge-o-5-534.1, Gyn_Obstetrics) 0
+(M-Ge-o-5-534.1, Otolaryngology) 0
+(M-Ge-o-5-534.1, Trauma) 0
+(S-Ge-o-5-535.1, General) 1
+(S-Ge-o-5-535.1, Gyn_Obstetrics) 0
+(S-Ge-o-5-535.1, Otolaryngology) 0
+(S-Ge-o-5-535.1, Trauma) 0
+(B-Ge-i-5-916.a0, General) 1
+(B-Ge-i-5-916.a0, Gyn_Obstetrics) 0
+(B-Ge-i-5-916.a0, Otolaryngology) 0
+(B-Ge-i-5-916.a0, Trauma) 0
+(M-Ge-i-5-916.a1, General) 1
+(M-Ge-i-5-916.a1, Gyn_Obstetrics) 0
+(M-Ge-i-5-916.a1, Otolaryngology) 0
+(M-Ge-i-5-916.a1, Trauma) 0
+(S-Ge-i-5-932.12, General) 1
+(S-Ge-i-5-932.12, Gyn_Obstetrics) 0
+(S-Ge-i-5-932.12, Otolaryngology) 0
+(S-Ge-i-5-932.12, Trauma) 0
+(B-Ge-o-5-530.33, General) 1
+(B-Ge-o-5-530.33, Gyn_Obstetrics) 0
+(B-Ge-o-5-530.33, Otolaryngology) 0
+(B-Ge-o-5-530.33, Trauma) 0
+(M-Ge-o-5-530.33, General) 1
+(M-Ge-o-5-530.33, Gyn_Obstetrics) 0
+(M-Ge-o-5-530.33, Otolaryngology) 0
+(M-Ge-o-5-530.33, Trauma) 0
+(S-Ge-o-5-534.35, General) 1
+(S-Ge-o-5-534.35, Gyn_Obstetrics) 0
+(S-Ge-o-5-534.35, Otolaryngology) 0
+(S-Ge-o-5-534.35, Trauma) 0
+(B-Ge-i-5-900.1b, General) 1
+(B-Ge-i-5-900.1b, Gyn_Obstetrics) 0
+(B-Ge-i-5-900.1b, Otolaryngology) 0
+(B-Ge-i-5-900.1b, Trauma) 0
+(M-Ge-i-5-916.a0, General) 1
+(M-Ge-i-5-916.a0, Gyn_Obstetrics) 0
+(M-Ge-i-5-916.a0, Otolaryngology) 0
+(M-Ge-i-5-916.a0, Trauma) 0
+(S-Ge-i-5-916.a5, General) 1
+(S-Ge-i-5-916.a5, Gyn_Obstetrics) 0
+(S-Ge-i-5-916.a5, Otolaryngology) 0
+(S-Ge-i-5-916.a5, Trauma) 0
+(B-Ge-o-5-530.32, General) 1
+(B-Ge-o-5-530.32, Gyn_Obstetrics) 0
+(B-Ge-o-5-530.32, Otolaryngology) 0
+(B-Ge-o-5-530.32, Trauma) 0
+(M-Ge-o-5-530.00, General) 1
+(M-Ge-o-5-530.00, Gyn_Obstetrics) 0
+(M-Ge-o-5-530.00, Otolaryngology) 0
+(M-Ge-o-5-530.00, Trauma) 0
+(S-Ge-o-5-534.1, General) 1
+(S-Ge-o-5-534.1, Gyn_Obstetrics) 0
+(S-Ge-o-5-534.1, Otolaryngology) 0
+(S-Ge-o-5-534.1, Trauma) 0
+(B-Ge-i-5-897.1, General) 1
+(B-Ge-i-5-897.1, Gyn_Obstetrics) 0
+(B-Ge-i-5-897.1, Otolaryngology) 0
+(B-Ge-i-5-897.1, Trauma) 0
+(M-Ge-i-5-911.0b, General) 1
+(M-Ge-i-5-911.0b, Gyn_Obstetrics) 0
+(M-Ge-i-5-911.0b, Otolaryngology) 0
+(M-Ge-i-5-911.0b, Trauma) 0
+(S-Ge-i-5-916.a4, General) 1
+(S-Ge-i-5-916.a4, Gyn_Obstetrics) 0
+(S-Ge-i-5-916.a4, Otolaryngology) 0
+(S-Ge-i-5-916.a4, Trauma) 0
+(B-Ge-o-5-493.2, General) 1
+(B-Ge-o-5-493.2, Gyn_Obstetrics) 0
+(B-Ge-o-5-493.2, Otolaryngology) 0
+(B-Ge-o-5-493.2, Trauma) 0
+(M-Ge-o-5-492.00, General) 1
+(M-Ge-o-5-492.00, Gyn_Obstetrics) 0
+(M-Ge-o-5-492.00, Otolaryngology) 0
+(M-Ge-o-5-492.00, Trauma) 0
+(S-Ge-o-5-534.03, General) 1
+(S-Ge-o-5-534.03, Gyn_Obstetrics) 0
+(S-Ge-o-5-534.03, Otolaryngology) 0
+(S-Ge-o-5-534.03, Trauma) 0
+(B-Ge-i-5-897.0, General) 1
+(B-Ge-i-5-897.0, Gyn_Obstetrics) 0
+(B-Ge-i-5-897.0, Otolaryngology) 0
+(B-Ge-i-5-897.0, Trauma) 0
+(M-Ge-i-5-900.1b, General) 1
+(M-Ge-i-5-900.1b, Gyn_Obstetrics) 0
+(M-Ge-i-5-900.1b, Otolaryngology) 0
+(M-Ge-i-5-900.1b, Trauma) 0
+(S-Ge-i-5-916.a3, General) 1
+(S-Ge-i-5-916.a3, Gyn_Obstetrics) 0
+(S-Ge-i-5-916.a3, Otolaryngology) 0
+(S-Ge-i-5-916.a3, Trauma) 0
+(B-Ge-o-5-492.00, General) 1
+(B-Ge-o-5-492.00, Gyn_Obstetrics) 0
+(B-Ge-o-5-492.00, Otolaryngology) 0
+(B-Ge-o-5-492.00, Trauma) 0
+(M-Ge-o-5-399.7, General) 1
+(M-Ge-o-5-399.7, Gyn_Obstetrics) 0
+(M-Ge-o-5-399.7, Otolaryngology) 0
+(M-Ge-o-5-399.7, Trauma) 0
+(S-Ge-o-5-530.33, General) 1
+(S-Ge-o-5-530.33, Gyn_Obstetrics) 0
+(S-Ge-o-5-530.33, Otolaryngology) 0
+(S-Ge-o-5-530.33, Trauma) 0
+(B-Ge-i-5-896.1g, General) 1
+(B-Ge-i-5-896.1g, Gyn_Obstetrics) 0
+(B-Ge-i-5-896.1g, Otolaryngology) 0
+(B-Ge-i-5-896.1g, Trauma) 0
+(M-Ge-i-5-897.0, General) 1
+(M-Ge-i-5-897.0, Gyn_Obstetrics) 0
+(M-Ge-i-5-897.0, Otolaryngology) 0
+(M-Ge-i-5-897.0, Trauma) 0
+(S-Ge-i-5-916.a2, General) 1
+(S-Ge-i-5-916.a2, Gyn_Obstetrics) 0
+(S-Ge-i-5-916.a2, Otolaryngology) 0
+(S-Ge-i-5-916.a2, Trauma) 0
+(B-Ge-o-5-399.7, General) 1
+(B-Ge-o-5-399.7, Gyn_Obstetrics) 0
+(B-Ge-o-5-399.7, Otolaryngology) 0
+(B-Ge-o-5-399.7, Trauma) 0
+(M-Ge-o-5-399.5, General) 1
+(M-Ge-o-5-399.5, Gyn_Obstetrics) 0
+(M-Ge-o-5-399.5, Otolaryngology) 0
+(M-Ge-o-5-399.5, Trauma) 0
+(S-Ge-o-5-530.32, General) 1
+(S-Ge-o-5-530.32, Gyn_Obstetrics) 0
+(S-Ge-o-5-530.32, Otolaryngology) 0
+(S-Ge-o-5-530.32, Trauma) 0
+(B-Gy-i-5-916.a0, General) 0
+(B-Gy-i-5-916.a0, Gyn_Obstetrics) 1
+(B-Gy-i-5-916.a0, Otolaryngology) 0
+(B-Gy-i-5-916.a0, Trauma) 0
+(M-Gy-i-5-872.1, General) 0
+(M-Gy-i-5-872.1, Gyn_Obstetrics) 1
+(M-Gy-i-5-872.1, Otolaryngology) 0
+(M-Gy-i-5-872.1, Trauma) 0
+(S-Gy-i-8-911, General) 0
+(S-Gy-i-8-911, Gyn_Obstetrics) 1
+(S-Gy-i-8-911, Otolaryngology) 0
+(S-Gy-i-8-911, Trauma) 0
+(B-Gy-o-5-870.90, General) 0
+(B-Gy-o-5-870.90, Gyn_Obstetrics) 1
+(B-Gy-o-5-870.90, Otolaryngology) 0
+(B-Gy-o-5-870.90, Trauma) 0
+(M-Gy-o-5-870.90, General) 0
+(M-Gy-o-5-870.90, Gyn_Obstetrics) 1
+(M-Gy-o-5-870.90, Otolaryngology) 0
+(M-Gy-o-5-870.90, Trauma) 0
+(S-Gy-o-5-870.a1, General) 0
+(S-Gy-o-5-870.a1, Gyn_Obstetrics) 1
+(S-Gy-o-5-870.a1, Otolaryngology) 0
+(S-Gy-o-5-870.a1, Trauma) 0
+(B-Gy-i-5-872.1, General) 0
+(B-Gy-i-5-872.1, Gyn_Obstetrics) 1
+(B-Gy-i-5-872.1, Otolaryngology) 0
+(B-Gy-i-5-872.1, Trauma) 0
+(M-Gy-i-5-872.0, General) 0
+(M-Gy-i-5-872.0, Gyn_Obstetrics) 1
+(M-Gy-i-5-872.0, Otolaryngology) 0
+(M-Gy-i-5-872.0, Trauma) 0
+(S-Gy-i-5-884.2, General) 0
+(S-Gy-i-5-884.2, Gyn_Obstetrics) 1
+(S-Gy-i-5-884.2, Otolaryngology) 0
+(S-Gy-i-5-884.2, Trauma) 0
+(B-Gy-o-5-751, General) 0
+(B-Gy-o-5-751, Gyn_Obstetrics) 1
+(B-Gy-o-5-751, Otolaryngology) 0
+(B-Gy-o-5-751, Trauma) 0
+(M-Gy-o-5-751, General) 0
+(M-Gy-o-5-751, Gyn_Obstetrics) 1
+(M-Gy-o-5-751, Otolaryngology) 0
+(M-Gy-o-5-751, Trauma) 0
+(S-Gy-o-5-870.a0, General) 0
+(S-Gy-o-5-870.a0, Gyn_Obstetrics) 1
+(S-Gy-o-5-870.a0, Otolaryngology) 0
+(S-Gy-o-5-870.a0, Trauma) 0
+(B-Gy-i-5-872.0, General) 0
+(B-Gy-i-5-872.0, Gyn_Obstetrics) 1
+(B-Gy-i-5-872.0, Otolaryngology) 0
+(B-Gy-i-5-872.0, Trauma) 0
+(M-Gy-i-5-870.a3, General) 0
+(M-Gy-i-5-870.a3, Gyn_Obstetrics) 1
+(M-Gy-i-5-870.a3, Otolaryngology) 0
+(M-Gy-i-5-870.a3, Trauma) 0
+(S-Gy-i-5-881.1, General) 0
+(S-Gy-i-5-881.1, Gyn_Obstetrics) 1
+(S-Gy-i-5-881.1, Otolaryngology) 0
+(S-Gy-i-5-881.1, Trauma) 0
+(B-Gy-o-5-712.0, General) 0
+(B-Gy-o-5-712.0, Gyn_Obstetrics) 1
+(B-Gy-o-5-712.0, Otolaryngology) 0
+(B-Gy-o-5-712.0, Trauma) 0
+(M-Gy-o-5-711.1, General) 0
+(M-Gy-o-5-711.1, Gyn_Obstetrics) 1
+(M-Gy-o-5-711.1, Otolaryngology) 0
+(M-Gy-o-5-711.1, Trauma) 0
+(S-Gy-o-5-870.90, General) 0
+(S-Gy-o-5-870.90, Gyn_Obstetrics) 1
+(S-Gy-o-5-870.90, Otolaryngology) 0
+(S-Gy-o-5-870.90, Trauma) 0
+(B-Gy-i-5-870.a2, General) 0
+(B-Gy-i-5-870.a2, Gyn_Obstetrics) 1
+(B-Gy-i-5-870.a2, Otolaryngology) 0
+(B-Gy-i-5-870.a2, Trauma) 0
+(M-Gy-i-5-870.a2, General) 0
+(M-Gy-i-5-870.a2, Gyn_Obstetrics) 1
+(M-Gy-i-5-870.a2, Otolaryngology) 0
+(M-Gy-i-5-870.a2, Trauma) 0
+(S-Gy-i-5-877.20, General) 0
+(S-Gy-i-5-877.20, Gyn_Obstetrics) 1
+(S-Gy-i-5-877.20, Otolaryngology) 0
+(S-Gy-i-5-877.20, Trauma) 0
+(B-Gy-o-5-711.1, General) 0
+(B-Gy-o-5-711.1, Gyn_Obstetrics) 1
+(B-Gy-o-5-711.1, Otolaryngology) 0
+(B-Gy-o-5-711.1, Trauma) 0
+(M-Gy-o-5-691, General) 0
+(M-Gy-o-5-691, Gyn_Obstetrics) 1
+(M-Gy-o-5-691, Otolaryngology) 0
+(M-Gy-o-5-691, Trauma) 0
+(S-Gy-o-5-751, General) 0
+(S-Gy-o-5-751, Gyn_Obstetrics) 1
+(S-Gy-o-5-751, Otolaryngology) 0
+(S-Gy-o-5-751, Trauma) 0
+(B-Gy-i-5-870.a1, General) 0
+(B-Gy-i-5-870.a1, Gyn_Obstetrics) 1
+(B-Gy-i-5-870.a1, Otolaryngology) 0
+(B-Gy-i-5-870.a1, Trauma) 0
+(M-Gy-i-5-870.a1, General) 0
+(M-Gy-i-5-870.a1, Gyn_Obstetrics) 1
+(M-Gy-i-5-870.a1, Otolaryngology) 0
+(M-Gy-i-5-870.a1, Trauma) 0
+(S-Gy-i-5-877.0, General) 0
+(S-Gy-i-5-877.0, Gyn_Obstetrics) 1
+(S-Gy-i-5-877.0, Otolaryngology) 0
+(S-Gy-i-5-877.0, Trauma) 0
+(B-Gy-o-5-691, General) 0
+(B-Gy-o-5-691, Gyn_Obstetrics) 1
+(B-Gy-o-5-691, Otolaryngology) 0
+(B-Gy-o-5-691, Trauma) 0
+(M-Gy-o-5-690.2, General) 0
+(M-Gy-o-5-690.2, Gyn_Obstetrics) 1
+(M-Gy-o-5-690.2, Otolaryngology) 0
+(M-Gy-o-5-690.2, Trauma) 0
+(S-Gy-o-5-712.0, General) 0
+(S-Gy-o-5-712.0, Gyn_Obstetrics) 1
+(S-Gy-o-5-712.0, Otolaryngology) 0
+(S-Gy-o-5-712.0, Trauma) 0
+(B-Gy-i-5-870.a0, General) 0
+(B-Gy-i-5-870.a0, Gyn_Obstetrics) 1
+(B-Gy-i-5-870.a0, Otolaryngology) 0
+(B-Gy-i-5-870.a0, Trauma) 0
+(M-Gy-i-5-870.a0, General) 0
+(M-Gy-i-5-870.a0, Gyn_Obstetrics) 1
+(M-Gy-i-5-870.a0, Otolaryngology) 0
+(M-Gy-i-5-870.a0, Trauma) 0
+(S-Gy-i-5-872.1, General) 0
+(S-Gy-i-5-872.1, Gyn_Obstetrics) 1
+(S-Gy-i-5-872.1, Otolaryngology) 0
+(S-Gy-i-5-872.1, Trauma) 0
+(B-Gy-o-5-690.2, General) 0
+(B-Gy-o-5-690.2, Gyn_Obstetrics) 1
+(B-Gy-o-5-690.2, Otolaryngology) 0
+(B-Gy-o-5-690.2, Trauma) 0
+(M-Gy-o-5-690.1, General) 0
+(M-Gy-o-5-690.1, Gyn_Obstetrics) 1
+(M-Gy-o-5-690.1, Otolaryngology) 0
+(M-Gy-o-5-690.1, Trauma) 0
+(S-Gy-o-5-711.1, General) 0
+(S-Gy-o-5-711.1, Gyn_Obstetrics) 1
+(S-Gy-o-5-711.1, Otolaryngology) 0
+(S-Gy-o-5-711.1, Trauma) 0
+(B-Gy-i-5-870.91, General) 0
+(B-Gy-i-5-870.91, Gyn_Obstetrics) 1
+(B-Gy-i-5-870.91, Otolaryngology) 0
+(B-Gy-i-5-870.91, Trauma) 0
+(M-Gy-i-5-870.91, General) 0
+(M-Gy-i-5-870.91, Gyn_Obstetrics) 1
+(M-Gy-i-5-870.91, Otolaryngology) 0
+(M-Gy-i-5-870.91, Trauma) 0
+(S-Gy-i-5-872.0, General) 0
+(S-Gy-i-5-872.0, Gyn_Obstetrics) 1
+(S-Gy-i-5-872.0, Otolaryngology) 0
+(S-Gy-i-5-872.0, Trauma) 0
+(B-Gy-o-5-690.1, General) 0
+(B-Gy-o-5-690.1, Gyn_Obstetrics) 1
+(B-Gy-o-5-690.1, Otolaryngology) 0
+(B-Gy-o-5-690.1, Trauma) 0
+(M-Gy-o-5-690.0, General) 0
+(M-Gy-o-5-690.0, Gyn_Obstetrics) 1
+(M-Gy-o-5-690.0, Otolaryngology) 0
+(M-Gy-o-5-690.0, Trauma) 0
+(S-Gy-o-5-702.1, General) 0
+(S-Gy-o-5-702.1, Gyn_Obstetrics) 1
+(S-Gy-o-5-702.1, Otolaryngology) 0
+(S-Gy-o-5-702.1, Trauma) 0
+(B-Gy-i-5-870.90, General) 0
+(B-Gy-i-5-870.90, Gyn_Obstetrics) 1
+(B-Gy-i-5-870.90, Otolaryngology) 0
+(B-Gy-i-5-870.90, Trauma) 0
+(M-Gy-i-5-870.90, General) 0
+(M-Gy-i-5-870.90, Gyn_Obstetrics) 1
+(M-Gy-i-5-870.90, Otolaryngology) 0
+(M-Gy-i-5-870.90, Trauma) 0
+(S-Gy-i-5-870.a5, General) 0
+(S-Gy-i-5-870.a5, Gyn_Obstetrics) 1
+(S-Gy-i-5-870.a5, Otolaryngology) 0
+(S-Gy-i-5-870.a5, Trauma) 0
+(B-Gy-o-5-690.0, General) 0
+(B-Gy-o-5-690.0, Gyn_Obstetrics) 1
+(B-Gy-o-5-690.0, Otolaryngology) 0
+(B-Gy-o-5-690.0, Trauma) 0
+(M-Gy-o-5-681.83, General) 0
+(M-Gy-o-5-681.83, Gyn_Obstetrics) 1
+(M-Gy-o-5-681.83, Otolaryngology) 0
+(M-Gy-o-5-681.83, Trauma) 0
+(S-Gy-o-5-691, General) 0
+(S-Gy-o-5-691, Gyn_Obstetrics) 1
+(S-Gy-o-5-691, Otolaryngology) 0
+(S-Gy-o-5-691, Trauma) 0
+(B-Ot-i-5-300.7, General) 0
+(B-Ot-i-5-300.7, Gyn_Obstetrics) 0
+(B-Ot-i-5-300.7, Otolaryngology) 1
+(B-Ot-i-5-300.7, Trauma) 0
+(M-Ot-i-5-984, General) 0
+(M-Ot-i-5-984, Gyn_Obstetrics) 0
+(M-Ot-i-5-984, Otolaryngology) 1
+(M-Ot-i-5-984, Trauma) 0
+(S-Ot-i-5-766.3, General) 0
+(S-Ot-i-5-766.3, Gyn_Obstetrics) 0
+(S-Ot-i-5-766.3, Otolaryngology) 1
+(S-Ot-i-5-766.3, Trauma) 0
+(B-Ot-o-5-300.5, General) 0
+(B-Ot-o-5-300.5, Gyn_Obstetrics) 0
+(B-Ot-o-5-300.5, Otolaryngology) 1
+(B-Ot-o-5-300.5, Trauma) 0
+(M-Ot-o-5-300.2, General) 0
+(M-Ot-o-5-300.2, Gyn_Obstetrics) 0
+(M-Ot-o-5-300.2, Otolaryngology) 1
+(M-Ot-o-5-300.2, Trauma) 0
+(S-Ot-o-5-285.1, General) 0
+(S-Ot-o-5-285.1, Gyn_Obstetrics) 0
+(S-Ot-o-5-285.1, Otolaryngology) 1
+(S-Ot-o-5-285.1, Trauma) 0
+(B-Ot-i-5-300.2, General) 0
+(B-Ot-i-5-300.2, Gyn_Obstetrics) 0
+(B-Ot-i-5-300.2, Otolaryngology) 1
+(B-Ot-i-5-300.2, Trauma) 0
+(M-Ot-i-5-983, General) 0
+(M-Ot-i-5-983, Gyn_Obstetrics) 0
+(M-Ot-i-5-983, Otolaryngology) 1
+(M-Ot-i-5-983, Trauma) 0
+(S-Ot-i-5-403.03, General) 0
+(S-Ot-i-5-403.03, Gyn_Obstetrics) 0
+(S-Ot-i-5-403.03, Otolaryngology) 1
+(S-Ot-i-5-403.03, Trauma) 0
+(B-Ot-o-5-300.2, General) 0
+(B-Ot-o-5-300.2, Gyn_Obstetrics) 0
+(B-Ot-o-5-300.2, Otolaryngology) 1
+(B-Ot-o-5-300.2, Trauma) 0
+(M-Ot-o-5-285.1, General) 0
+(M-Ot-o-5-285.1, Gyn_Obstetrics) 0
+(M-Ot-o-5-285.1, Otolaryngology) 1
+(M-Ot-o-5-285.1, Trauma) 0
+(S-Ot-o-5-285.0, General) 0
+(S-Ot-o-5-285.0, Gyn_Obstetrics) 0
+(S-Ot-o-5-285.0, Otolaryngology) 1
+(S-Ot-o-5-285.0, Trauma) 0
+(B-Ot-i-5-289.01, General) 0
+(B-Ot-i-5-289.01, Gyn_Obstetrics) 0
+(B-Ot-i-5-289.01, Otolaryngology) 1
+(B-Ot-i-5-289.01, Trauma) 0
+(M-Ot-i-5-892.05, General) 0
+(M-Ot-i-5-892.05, Gyn_Obstetrics) 0
+(M-Ot-i-5-892.05, Otolaryngology) 1
+(M-Ot-i-5-892.05, Trauma) 0
+(S-Ot-i-5-403.01, General) 0
+(S-Ot-i-5-403.01, Gyn_Obstetrics) 0
+(S-Ot-i-5-403.01, Otolaryngology) 1
+(S-Ot-i-5-403.01, Trauma) 0
+(B-Ot-o-5-285.1, General) 0
+(B-Ot-o-5-285.1, Gyn_Obstetrics) 0
+(B-Ot-o-5-285.1, Otolaryngology) 1
+(B-Ot-o-5-285.1, Trauma) 0
+(M-Ot-o-5-285.0, General) 0
+(M-Ot-o-5-285.0, Gyn_Obstetrics) 0
+(M-Ot-o-5-285.0, Otolaryngology) 1
+(M-Ot-o-5-285.0, Trauma) 0
+(S-Ot-o-5-216.0, General) 0
+(S-Ot-o-5-216.0, Gyn_Obstetrics) 0
+(S-Ot-o-5-216.0, Otolaryngology) 1
+(S-Ot-o-5-216.0, Trauma) 0
+(B-Ot-i-5-285.0, General) 0
+(B-Ot-i-5-285.0, Gyn_Obstetrics) 0
+(B-Ot-i-5-285.0, Otolaryngology) 1
+(B-Ot-i-5-285.0, Trauma) 0
+(M-Ot-i-5-771.10, General) 0
+(M-Ot-i-5-771.10, Gyn_Obstetrics) 0
+(M-Ot-i-5-771.10, Otolaryngology) 1
+(M-Ot-i-5-771.10, Trauma) 0
+(S-Ot-i-5-403.00, General) 0
+(S-Ot-i-5-403.00, Gyn_Obstetrics) 0
+(S-Ot-i-5-403.00, Otolaryngology) 1
+(S-Ot-i-5-403.00, Trauma) 0
+(B-Ot-o-5-285.0, General) 0
+(B-Ot-o-5-285.0, Gyn_Obstetrics) 0
+(B-Ot-o-5-285.0, Otolaryngology) 1
+(B-Ot-o-5-285.0, Trauma) 0
+(M-Ot-o-5-281.5, General) 0
+(M-Ot-o-5-281.5, Gyn_Obstetrics) 0
+(M-Ot-o-5-281.5, Otolaryngology) 1
+(M-Ot-o-5-281.5, Trauma) 0
+(S-Ot-o-5-215.3, General) 0
+(S-Ot-o-5-215.3, Gyn_Obstetrics) 0
+(S-Ot-o-5-215.3, Otolaryngology) 1
+(S-Ot-o-5-215.3, Trauma) 0
+(B-Ot-i-5-281.5, General) 0
+(B-Ot-i-5-281.5, Gyn_Obstetrics) 0
+(B-Ot-i-5-281.5, Otolaryngology) 1
+(B-Ot-i-5-281.5, Trauma) 0
+(M-Ot-i-5-766.3, General) 0
+(M-Ot-i-5-766.3, Gyn_Obstetrics) 0
+(M-Ot-i-5-766.3, Otolaryngology) 1
+(M-Ot-i-5-766.3, Trauma) 0
+(S-Ot-i-5-402.0, General) 0
+(S-Ot-i-5-402.0, Gyn_Obstetrics) 0
+(S-Ot-i-5-402.0, Otolaryngology) 1
+(S-Ot-i-5-402.0, Trauma) 0
+(B-Ot-o-5-281.5, General) 0
+(B-Ot-o-5-281.5, Gyn_Obstetrics) 0
+(B-Ot-o-5-281.5, Otolaryngology) 1
+(B-Ot-o-5-281.5, Trauma) 0
+(M-Ot-o-5-216.1, General) 0
+(M-Ot-o-5-216.1, Gyn_Obstetrics) 0
+(M-Ot-o-5-216.1, Otolaryngology) 1
+(M-Ot-o-5-216.1, Trauma) 0
+(S-Ot-o-5-200.5, General) 0
+(S-Ot-o-5-200.5, Gyn_Obstetrics) 0
+(S-Ot-o-5-200.5, Otolaryngology) 1
+(S-Ot-o-5-200.5, Trauma) 0
+(B-Ot-i-5-281.0, General) 0
+(B-Ot-i-5-281.0, Gyn_Obstetrics) 0
+(B-Ot-i-5-281.0, Otolaryngology) 1
+(B-Ot-i-5-281.0, Trauma) 0
+(M-Ot-i-5-403.04, General) 0
+(M-Ot-i-5-403.04, Gyn_Obstetrics) 0
+(M-Ot-i-5-403.04, Otolaryngology) 1
+(M-Ot-i-5-403.04, Trauma) 0
+(S-Ot-i-5-401.00, General) 0
+(S-Ot-i-5-401.00, Gyn_Obstetrics) 0
+(S-Ot-i-5-401.00, Otolaryngology) 1
+(S-Ot-i-5-401.00, Trauma) 0
+(B-Ot-o-5-216.0, General) 0
+(B-Ot-o-5-216.0, Gyn_Obstetrics) 0
+(B-Ot-o-5-216.0, Otolaryngology) 1
+(B-Ot-o-5-216.0, Trauma) 0
+(M-Ot-o-5-216.0, General) 0
+(M-Ot-o-5-216.0, Gyn_Obstetrics) 0
+(M-Ot-o-5-216.0, Otolaryngology) 1
+(M-Ot-o-5-216.0, Trauma) 0
+(S-Ot-o-5-200.4, General) 0
+(S-Ot-o-5-200.4, Gyn_Obstetrics) 0
+(S-Ot-o-5-200.4, Otolaryngology) 1
+(S-Ot-o-5-200.4, Trauma) 0
+(B-Ot-i-5-280.0, General) 0
+(B-Ot-i-5-280.0, Gyn_Obstetrics) 0
+(B-Ot-i-5-280.0, Otolaryngology) 1
+(B-Ot-i-5-280.0, Trauma) 0
+(M-Ot-i-5-403.03, General) 0
+(M-Ot-i-5-403.03, Gyn_Obstetrics) 0
+(M-Ot-i-5-403.03, Otolaryngology) 1
+(M-Ot-i-5-403.03, Trauma) 0
+(S-Ot-i-5-319.9, General) 0
+(S-Ot-i-5-319.9, Gyn_Obstetrics) 0
+(S-Ot-i-5-319.9, Otolaryngology) 1
+(S-Ot-i-5-319.9, Trauma) 0
+(B-Ot-o-5-215.3, General) 0
+(B-Ot-o-5-215.3, Gyn_Obstetrics) 0
+(B-Ot-o-5-215.3, Otolaryngology) 1
+(B-Ot-o-5-215.3, Trauma) 0
+(M-Ot-o-5-200.5, General) 0
+(M-Ot-o-5-200.5, Gyn_Obstetrics) 0
+(M-Ot-o-5-200.5, Otolaryngology) 1
+(M-Ot-o-5-200.5, Trauma) 0
+(S-Ot-o-5-194.0, General) 0
+(S-Ot-o-5-194.0, Gyn_Obstetrics) 0
+(S-Ot-o-5-194.0, Otolaryngology) 1
+(S-Ot-o-5-194.0, Trauma) 0
+(B-Ot-i-5-262.04, General) 0
+(B-Ot-i-5-262.04, Gyn_Obstetrics) 0
+(B-Ot-i-5-262.04, Otolaryngology) 1
+(B-Ot-i-5-262.04, Trauma) 0
+(M-Ot-i-5-403.02, General) 0
+(M-Ot-i-5-403.02, Gyn_Obstetrics) 0
+(M-Ot-i-5-403.02, Otolaryngology) 1
+(M-Ot-i-5-403.02, Trauma) 0
+(S-Ot-i-5-316.2, General) 0
+(S-Ot-i-5-316.2, Gyn_Obstetrics) 0
+(S-Ot-i-5-316.2, Otolaryngology) 1
+(S-Ot-i-5-316.2, Trauma) 0
+(B-Ot-o-5-202.2, General) 0
+(B-Ot-o-5-202.2, Gyn_Obstetrics) 0
+(B-Ot-o-5-202.2, Otolaryngology) 1
+(B-Ot-o-5-202.2, Trauma) 0
+(M-Ot-o-5-200.4, General) 0
+(M-Ot-o-5-200.4, Gyn_Obstetrics) 0
+(M-Ot-o-5-200.4, Otolaryngology) 1
+(M-Ot-o-5-200.4, Trauma) 0
+(S-Ot-o-5-184.2, General) 0
+(S-Ot-o-5-184.2, Gyn_Obstetrics) 0
+(S-Ot-o-5-184.2, Otolaryngology) 1
+(S-Ot-o-5-184.2, Trauma) 0
+(B-Tr-i-5-916.a1, General) 0
+(B-Tr-i-5-916.a1, Gyn_Obstetrics) 0
+(B-Tr-i-5-916.a1, Otolaryngology) 0
+(B-Tr-i-5-916.a1, Trauma) 1
+(M-Tr-i-5-916.a1, General) 0
+(M-Tr-i-5-916.a1, Gyn_Obstetrics) 0
+(M-Tr-i-5-916.a1, Otolaryngology) 0
+(M-Tr-i-5-916.a1, Trauma) 1
+(S-Tr-i-5-986.x, General) 0
+(S-Tr-i-5-986.x, Gyn_Obstetrics) 0
+(S-Tr-i-5-986.x, Otolaryngology) 0
+(S-Tr-i-5-986.x, Trauma) 1
+(B-Tr-o-5-859.12, General) 0
+(B-Tr-o-5-859.12, Gyn_Obstetrics) 0
+(B-Tr-o-5-859.12, Otolaryngology) 0
+(B-Tr-o-5-859.12, Trauma) 1
+(M-Tr-o-5-812.5, General) 0
+(M-Tr-o-5-812.5, Gyn_Obstetrics) 0
+(M-Tr-o-5-812.5, Otolaryngology) 0
+(M-Tr-o-5-812.5, Trauma) 1
+(S-Tr-o-5-983, General) 0
+(S-Tr-o-5-983, Gyn_Obstetrics) 0
+(S-Tr-o-5-983, Otolaryngology) 0
+(S-Tr-o-5-983, Trauma) 1
+(B-Tr-i-5-916.a0, General) 0
+(B-Tr-i-5-916.a0, Gyn_Obstetrics) 0
+(B-Tr-i-5-916.a0, Otolaryngology) 0
+(B-Tr-i-5-916.a0, Trauma) 1
+(M-Tr-i-5-916.a0, General) 0
+(M-Tr-i-5-916.a0, Gyn_Obstetrics) 0
+(M-Tr-i-5-916.a0, Otolaryngology) 0
+(M-Tr-i-5-916.a0, Trauma) 1
+(S-Tr-i-5-984, General) 0
+(S-Tr-i-5-984, Gyn_Obstetrics) 0
+(S-Tr-i-5-984, Otolaryngology) 0
+(S-Tr-i-5-984, Trauma) 1
+(B-Tr-o-5-849.0, General) 0
+(B-Tr-o-5-849.0, Gyn_Obstetrics) 0
+(B-Tr-o-5-849.0, Otolaryngology) 0
+(B-Tr-o-5-849.0, Trauma) 1
+(M-Tr-o-5-790.2b, General) 0
+(M-Tr-o-5-790.2b, Gyn_Obstetrics) 0
+(M-Tr-o-5-790.2b, Otolaryngology) 0
+(M-Tr-o-5-790.2b, Trauma) 1
+(S-Tr-o-5-849.0, General) 0
+(S-Tr-o-5-849.0, Gyn_Obstetrics) 0
+(S-Tr-o-5-849.0, Otolaryngology) 0
+(S-Tr-o-5-849.0, Trauma) 1
+(B-Tr-i-5-900.1f, General) 0
+(B-Tr-i-5-900.1f, Gyn_Obstetrics) 0
+(B-Tr-i-5-900.1f, Otolaryngology) 0
+(B-Tr-i-5-900.1f, Trauma) 1
+(M-Tr-i-5-896.1f, General) 0
+(M-Tr-i-5-896.1f, Gyn_Obstetrics) 0
+(M-Tr-i-5-896.1f, Otolaryngology) 0
+(M-Tr-i-5-896.1f, Trauma) 1
+(S-Tr-i-5-983, General) 0
+(S-Tr-i-5-983, Gyn_Obstetrics) 0
+(S-Tr-i-5-983, Otolaryngology) 0
+(S-Tr-i-5-983, Trauma) 1
+(B-Tr-o-5-841.15, General) 0
+(B-Tr-o-5-841.15, Gyn_Obstetrics) 0
+(B-Tr-o-5-841.15, Otolaryngology) 0
+(B-Tr-o-5-841.15, Trauma) 1
+(M-Tr-o-5-787.k6, General) 0
+(M-Tr-o-5-787.k6, Gyn_Obstetrics) 0
+(M-Tr-o-5-787.k6, Otolaryngology) 0
+(M-Tr-o-5-787.k6, Trauma) 1
+(S-Tr-o-5-841.14, General) 0
+(S-Tr-o-5-841.14, Gyn_Obstetrics) 0
+(S-Tr-o-5-841.14, Otolaryngology) 0
+(S-Tr-o-5-841.14, Trauma) 1
+(B-Tr-i-5-896.1f, General) 0
+(B-Tr-i-5-896.1f, Gyn_Obstetrics) 0
+(B-Tr-i-5-896.1f, Otolaryngology) 0
+(B-Tr-i-5-896.1f, Trauma) 1
+(M-Tr-i-5-896.1e, General) 0
+(M-Tr-i-5-896.1e, Gyn_Obstetrics) 0
+(M-Tr-i-5-896.1e, Otolaryngology) 0
+(M-Tr-i-5-896.1e, Trauma) 1
+(S-Tr-i-5-931.0, General) 0
+(S-Tr-i-5-931.0, Gyn_Obstetrics) 0
+(S-Tr-i-5-931.0, Otolaryngology) 0
+(S-Tr-i-5-931.0, Trauma) 1
+(B-Tr-o-5-841.14, General) 0
+(B-Tr-o-5-841.14, Gyn_Obstetrics) 0
+(B-Tr-o-5-841.14, Otolaryngology) 0
+(B-Tr-o-5-841.14, Trauma) 1
+(M-Tr-o-5-787.k0, General) 0
+(M-Tr-o-5-787.k0, Gyn_Obstetrics) 0
+(M-Tr-o-5-787.k0, Otolaryngology) 0
+(M-Tr-o-5-787.k0, Trauma) 1
+(S-Tr-o-5-812.5, General) 0
+(S-Tr-o-5-812.5, Gyn_Obstetrics) 0
+(S-Tr-o-5-812.5, Otolaryngology) 0
+(S-Tr-o-5-812.5, Trauma) 1
+(B-Tr-i-5-896.1e, General) 0
+(B-Tr-i-5-896.1e, Gyn_Obstetrics) 0
+(B-Tr-i-5-896.1e, Otolaryngology) 0
+(B-Tr-i-5-896.1e, Trauma) 1
+(M-Tr-i-5-869.2, General) 0
+(M-Tr-i-5-869.2, Gyn_Obstetrics) 0
+(M-Tr-i-5-869.2, Otolaryngology) 0
+(M-Tr-i-5-869.2, Trauma) 1
+(S-Tr-i-5-916.a1, General) 0
+(S-Tr-i-5-916.a1, Gyn_Obstetrics) 0
+(S-Tr-i-5-916.a1, Otolaryngology) 0
+(S-Tr-i-5-916.a1, Trauma) 1
+(B-Tr-o-5-812.eh, General) 0
+(B-Tr-o-5-812.eh, Gyn_Obstetrics) 0
+(B-Tr-o-5-812.eh, Otolaryngology) 0
+(B-Tr-o-5-812.eh, Trauma) 1
+(M-Tr-o-5-787.gb, General) 0
+(M-Tr-o-5-787.gb, Gyn_Obstetrics) 0
+(M-Tr-o-5-787.gb, Otolaryngology) 0
+(M-Tr-o-5-787.gb, Trauma) 1
+(S-Tr-o-5-810.0h, General) 0
+(S-Tr-o-5-810.0h, Gyn_Obstetrics) 0
+(S-Tr-o-5-810.0h, Otolaryngology) 0
+(S-Tr-o-5-810.0h, Trauma) 1
+(B-Tr-i-5-896.17, General) 0
+(B-Tr-i-5-896.17, Gyn_Obstetrics) 0
+(B-Tr-i-5-896.17, Otolaryngology) 0
+(B-Tr-i-5-896.17, Trauma) 1
+(M-Tr-i-5-869.1, General) 0
+(M-Tr-i-5-869.1, Gyn_Obstetrics) 0
+(M-Tr-i-5-869.1, Otolaryngology) 0
+(M-Tr-i-5-869.1, Trauma) 1
+(S-Tr-i-5-916.a0, General) 0
+(S-Tr-i-5-916.a0, Gyn_Obstetrics) 0
+(S-Tr-i-5-916.a0, Otolaryngology) 0
+(S-Tr-i-5-916.a0, Trauma) 1
+(B-Tr-o-5-812.5, General) 0
+(B-Tr-o-5-812.5, Gyn_Obstetrics) 0
+(B-Tr-o-5-812.5, Otolaryngology) 0
+(B-Tr-o-5-812.5, Trauma) 1
+(M-Tr-o-5-787.3r, General) 0
+(M-Tr-o-5-787.3r, Gyn_Obstetrics) 0
+(M-Tr-o-5-787.3r, Otolaryngology) 0
+(M-Tr-o-5-787.3r, Trauma) 1
+(S-Tr-o-5-790.2b, General) 0
+(S-Tr-o-5-790.2b, Gyn_Obstetrics) 0
+(S-Tr-o-5-790.2b, Otolaryngology) 0
+(S-Tr-o-5-790.2b, Trauma) 1
+(B-Tr-i-5-892.1e, General) 0
+(B-Tr-i-5-892.1e, Gyn_Obstetrics) 0
+(B-Tr-i-5-892.1e, Otolaryngology) 0
+(B-Tr-i-5-892.1e, Trauma) 1
+(M-Tr-i-5-855.19, General) 0
+(M-Tr-i-5-855.19, Gyn_Obstetrics) 0
+(M-Tr-i-5-855.19, Otolaryngology) 0
+(M-Tr-i-5-855.19, Trauma) 1
+(S-Tr-i-5-902.4f, General) 0
+(S-Tr-i-5-902.4f, Gyn_Obstetrics) 0
+(S-Tr-i-5-902.4f, Otolaryngology) 0
+(S-Tr-i-5-902.4f, Trauma) 1
+(B-Tr-o-5-811.2h, General) 0
+(B-Tr-o-5-811.2h, Gyn_Obstetrics) 0
+(B-Tr-o-5-811.2h, Otolaryngology) 0
+(B-Tr-o-5-811.2h, Trauma) 1
+(M-Tr-o-5-787.36, General) 0
+(M-Tr-o-5-787.36, Gyn_Obstetrics) 0
+(M-Tr-o-5-787.36, Otolaryngology) 0
+(M-Tr-o-5-787.36, Trauma) 1
+(S-Tr-o-5-790.1c, General) 0
+(S-Tr-o-5-790.1c, Gyn_Obstetrics) 0
+(S-Tr-o-5-790.1c, Otolaryngology) 0
+(S-Tr-o-5-790.1c, Trauma) 1
+(B-Tr-i-5-892.0f, General) 0
+(B-Tr-i-5-892.0f, Gyn_Obstetrics) 0
+(B-Tr-i-5-892.0f, Otolaryngology) 0
+(B-Tr-i-5-892.0f, Trauma) 1
+(M-Tr-i-5-855.18, General) 0
+(M-Tr-i-5-855.18, Gyn_Obstetrics) 0
+(M-Tr-i-5-855.18, Otolaryngology) 0
+(M-Tr-i-5-855.18, Trauma) 1
+(S-Tr-i-5-900.1f, General) 0
+(S-Tr-i-5-900.1f, Gyn_Obstetrics) 0
+(S-Tr-i-5-900.1f, Otolaryngology) 0
+(S-Tr-i-5-900.1f, Trauma) 1
+(B-Tr-o-5-811.0h, General) 0
+(B-Tr-o-5-811.0h, Gyn_Obstetrics) 0
+(B-Tr-o-5-811.0h, Otolaryngology) 0
+(B-Tr-o-5-811.0h, Trauma) 1
+(M-Tr-o-5-787.30, General) 0
+(M-Tr-o-5-787.30, Gyn_Obstetrics) 0
+(M-Tr-o-5-787.30, Otolaryngology) 0
+(M-Tr-o-5-787.30, Trauma) 1
+(S-Tr-o-5-790.1b, General) 0
+(S-Tr-o-5-790.1b, Gyn_Obstetrics) 0
+(S-Tr-o-5-790.1b, Otolaryngology) 0
+(S-Tr-o-5-790.1b, Trauma) 1
+(B-Tr-i-5-892.0e, General) 0
+(B-Tr-i-5-892.0e, Gyn_Obstetrics) 0
+(B-Tr-i-5-892.0e, Otolaryngology) 0
+(B-Tr-i-5-892.0e, Trauma) 1
+(M-Tr-i-5-855.02, General) 0
+(M-Tr-i-5-855.02, Gyn_Obstetrics) 0
+(M-Tr-i-5-855.02, Otolaryngology) 0
+(M-Tr-i-5-855.02, Trauma) 1
+(S-Tr-i-5-896.1g, General) 0
+(S-Tr-i-5-896.1g, Gyn_Obstetrics) 0
+(S-Tr-i-5-896.1g, Otolaryngology) 0
+(S-Tr-i-5-896.1g, Trauma) 1
+(B-Tr-o-5-790.2b, General) 0
+(B-Tr-o-5-790.2b, Gyn_Obstetrics) 0
+(B-Tr-o-5-790.2b, Otolaryngology) 0
+(B-Tr-o-5-790.2b, Trauma) 1
+(M-Tr-o-5-787.1r, General) 0
+(M-Tr-o-5-787.1r, Gyn_Obstetrics) 0
+(M-Tr-o-5-787.1r, Otolaryngology) 0
+(M-Tr-o-5-787.1r, Trauma) 1
+(S-Tr-o-5-790.16, General) 0
+(S-Tr-o-5-790.16, Gyn_Obstetrics) 0
+(S-Tr-o-5-790.16, Otolaryngology) 0
+(S-Tr-o-5-790.16, Trauma) 1
+(B-Tr-i-5-869.1, General) 0
+(B-Tr-i-5-869.1, Gyn_Obstetrics) 0
+(B-Tr-i-5-869.1, Otolaryngology) 0
+(B-Tr-i-5-869.1, Trauma) 1
+(M-Tr-i-5-83b.53, General) 0
+(M-Tr-i-5-83b.53, Gyn_Obstetrics) 0
+(M-Tr-i-5-83b.53, Otolaryngology) 0
+(M-Tr-i-5-83b.53, Trauma) 1
+(S-Tr-i-5-896.1f, General) 0
+(S-Tr-i-5-896.1f, Gyn_Obstetrics) 0
+(S-Tr-i-5-896.1f, Otolaryngology) 0
+(S-Tr-i-5-896.1f, Trauma) 1
+(B-Tr-o-5-790.1c, General) 0
+(B-Tr-o-5-790.1c, Gyn_Obstetrics) 0
+(B-Tr-o-5-790.1c, Otolaryngology) 0
+(B-Tr-o-5-790.1c, Trauma) 1
+(M-Tr-o-5-787.1n, General) 0
+(M-Tr-o-5-787.1n, Gyn_Obstetrics) 0
+(M-Tr-o-5-787.1n, Otolaryngology) 0
+(M-Tr-o-5-787.1n, Trauma) 1
+(S-Tr-o-5-787.k6, General) 0
+(S-Tr-o-5-787.k6, Gyn_Obstetrics) 0
+(S-Tr-o-5-787.k6, Otolaryngology) 0
+(S-Tr-o-5-787.k6, Trauma) 1
+;

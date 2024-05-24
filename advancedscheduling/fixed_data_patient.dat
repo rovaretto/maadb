@@ -1,0 +1,104 @@
+set K :=
+A
+B
+C
+D
+;
+
+set T :=
+Lunedi
+Martedi
+Mercoledi
+Giovedi
+Venerdi
+;
+
+set J :=
+General
+Gyn_Obstetrics
+Otolaryngology
+Trauma
+;
+
+param tau :=
+(A, Lunedi, General) 1
+(A, Lunedi, Gyn_Obstetrics) 0
+(A, Lunedi, Otolaryngology) 0
+(A, Lunedi, Trauma) 0
+(A, Martedi, General) 1
+(A, Martedi, Gyn_Obstetrics) 0
+(A, Martedi, Otolaryngology) 0
+(A, Martedi, Trauma) 0
+(A, Mercoledi, General) 1
+(A, Mercoledi, Gyn_Obstetrics) 0
+(A, Mercoledi, Otolaryngology) 0
+(A, Mercoledi, Trauma) 0
+(A, Giovedi, General) 1
+(A, Giovedi, Gyn_Obstetrics) 0
+(A, Giovedi, Otolaryngology) 0
+(A, Giovedi, Trauma) 0
+(A, Venerdi, General) 1
+(A, Venerdi, Gyn_Obstetrics) 0
+(A, Venerdi, Otolaryngology) 0
+(A, Venerdi, Trauma) 0
+(B, Lunedi, General) 0
+(B, Lunedi, Gyn_Obstetrics) 1
+(B, Lunedi, Otolaryngology) 0
+(B, Lunedi, Trauma) 0
+(B, Martedi, General) 0
+(B, Martedi, Gyn_Obstetrics) 1
+(B, Martedi, Otolaryngology) 0
+(B, Martedi, Trauma) 0
+(B, Mercoledi, General) 0
+(B, Mercoledi, Gyn_Obstetrics) 1
+(B, Mercoledi, Otolaryngology) 0
+(B, Mercoledi, Trauma) 0
+(B, Giovedi, General) 0
+(B, Giovedi, Gyn_Obstetrics) 1
+(B, Giovedi, Otolaryngology) 0
+(B, Giovedi, Trauma) 0
+(B, Venerdi, General) 0
+(B, Venerdi, Gyn_Obstetrics) 1
+(B, Venerdi, Otolaryngology) 0
+(B, Venerdi, Trauma) 0
+(C, Lunedi, General) 0
+(C, Lunedi, Gyn_Obstetrics) 0
+(C, Lunedi, Otolaryngology) 1
+(C, Lunedi, Trauma) 0
+(C, Martedi, General) 0
+(C, Martedi, Gyn_Obstetrics) 0
+(C, Martedi, Otolaryngology) 1
+(C, Martedi, Trauma) 0
+(C, Mercoledi, General) 0
+(C, Mercoledi, Gyn_Obstetrics) 0
+(C, Mercoledi, Otolaryngology) 1
+(C, Mercoledi, Trauma) 0
+(C, Giovedi, General) 0
+(C, Giovedi, Gyn_Obstetrics) 0
+(C, Giovedi, Otolaryngology) 1
+(C, Giovedi, Trauma) 0
+(C, Venerdi, General) 0
+(C, Venerdi, Gyn_Obstetrics) 0
+(C, Venerdi, Otolaryngology) 1
+(C, Venerdi, Trauma) 0
+(D, Lunedi, General) 0
+(D, Lunedi, Gyn_Obstetrics) 0
+(D, Lunedi, Otolaryngology) 0
+(D, Lunedi, Trauma) 1
+(D, Martedi, General) 0
+(D, Martedi, Gyn_Obstetrics) 0
+(D, Martedi, Otolaryngology) 0
+(D, Martedi, Trauma) 1
+(D, Mercoledi, General) 0
+(D, Mercoledi, Gyn_Obstetrics) 0
+(D, Mercoledi, Otolaryngology) 0
+(D, Mercoledi, Trauma) 1
+(D, Giovedi, General) 0
+(D, Giovedi, Gyn_Obstetrics) 0
+(D, Giovedi, Otolaryngology) 0
+(D, Giovedi, Trauma) 1
+(D, Venerdi, General) 0
+(D, Venerdi, Gyn_Obstetrics) 0
+(D, Venerdi, Otolaryngology) 0
+(D, Venerdi, Trauma) 1
+;

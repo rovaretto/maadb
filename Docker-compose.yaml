@@ -1,0 +1,13 @@
+services:
+  # EUREKA DISCOVERY SERVER
+  riak:
+    image: basho/riak-kv
+    container_name: riak-ctn
+  mongodb:
+      image: mongo:latest
+      ports:
+        - '27017:27017'
+      volumes:
+        - info-sale:/data/db
+volumes:
+  info-sale:
