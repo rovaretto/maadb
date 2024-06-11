@@ -3,6 +3,8 @@ services:
   riak:
     image: basho/riak-kv
     container_name: riak-ctn
+    ports:
+      - '8098:8098'
   mongodb:
       image: mongo:latest
       ports:
