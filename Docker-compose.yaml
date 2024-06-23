@@ -6,12 +6,10 @@ services:
     container_name: riak-ctn
     ports:
       - '8098:8098'
-    ulimits:
-      nofile:
-        soft: 65536
-        hard: 65536
     volumes:
-      - riak-db:/var/lib/riak
+      - schemas:/etc/riak/schemas
+    networks:
+      - global_net
 
   mongodb:
     image: mongo:latest
@@ -19,7 +17,14 @@ services:
       - '27017:27017'
     volumes:
       - info-sale:/data/db
+    networks:
+      - global_net
+
+networks:
+  global_net:
+    driver: bridge
 
 volumes:
   info-sale:
-  riak-db:
+  schemas:
+    external: false

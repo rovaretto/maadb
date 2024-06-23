@@ -75,7 +75,7 @@ def loadRiak():
     a = generatePatientMaxMin()
     sum=0
     for key in a:
-        url = 'http://172.28.0.2:8098/riak/patients/' + key
+        url = 'http://172.30.0.2:8098/riak/patients/' + key
         myobj = {'duration': a[key]}
         x = requests.post(url, json=myobj)
 

@@ -1,20 +1,10 @@
-import os
+import pymongo
 
-from prova.model import *
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 
-data = DataPortal()
-data.load(filename="data.dat")
-instance = model.create_instance()
+dbOspedale = myclient["ospedale"]
 
-# Imposta l'indirizzo email NEOS
-os.environ['NEOS_EMAIL'] = 'emanuele.rovaretto@edu.unito.it'
+infoSale = dbOspedale["info-sale"]
+patient_list = dbOspedale["waiting-list"]
 
-
-# Imposta il solutore su NEOS
-solver_manager = SolverManagerFactory('neos')
-
-# Risolvi il problema di ottimizzazione
-results = solver_manager.solve(instance, solver="minos", load_solutions=False)
-
-# Stampa i risultati
-print(results)
+print(infoSale.find_one({'nome': 'D'},{"patientPerDay":1}))

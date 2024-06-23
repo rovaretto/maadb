@@ -10,7 +10,7 @@ dbOspedale = myclient["ospedale"]
 patient_list = dbOspedale["waiting-list"]
 patient_list.drop()
 
-urlRiak = 'http://172.28.0.2:8098/riak/ospedale1/' + "waiting-list"
+urlRiak = 'http://172.30.0.2:8098/riak/ospedale1/' + "waiting-list"
 
 def load():
     waiting_list_opcode = [
