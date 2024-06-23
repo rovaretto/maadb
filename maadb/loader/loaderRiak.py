@@ -7,7 +7,7 @@ from numpy import random
 
 
 def extractDistribution(loc, specialty, typePatient):
-    file = open('../main-distribution.csv', 'r')
+    file = open('main-distribution.csv', 'r')
     righeFile = csv.reader(StringIO(file.read()))
     opcode_data = {}
 
@@ -75,7 +75,7 @@ def loadRiak():
     a = generatePatientMaxMin()
     sum=0
     for key in a:
-        url = 'http://172.22.0.2:8098/riak/patients/' + key
+        url = 'http://172.28.0.2:8098/riak/patients/' + key
         myobj = {'duration': a[key]}
         x = requests.post(url, json=myobj)
 

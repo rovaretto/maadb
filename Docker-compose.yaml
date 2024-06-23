@@ -1,15 +1,25 @@
+version: '3.7'
+
 services:
-  # EUREKA DISCOVERY SERVER
   riak:
     image: basho/riak-kv
     container_name: riak-ctn
     ports:
       - '8098:8098'
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
+    volumes:
+      - riak-db:/var/lib/riak
+
   mongodb:
-      image: mongo:latest
-      ports:
-        - '27017:27017'
-      volumes:
-        - info-sale:/data/db
+    image: mongo:latest
+    ports:
+      - '27017:27017'
+    volumes:
+      - info-sale:/data/db
+
 volumes:
   info-sale:
+  riak-db:

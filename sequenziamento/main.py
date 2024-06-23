@@ -12,7 +12,7 @@ os.environ['NEOS_EMAIL'] = 'emanuele.rovaretto@edu.unito.it'
 # Imposta il solutore su NEOS
 # solver_manager = SolverManagerFactory('neos')
 solver_manager = SolverFactory('cplex', executable="/opt/ibm/ILOG/CPLEX_Studio128/cplex/bin/x86-64_linux/cplex")
-solver_manager.options['timelimit'] = 4800
+solver_manager.options['timelimit'] = 600
 
 # Risolvi il problema di ottimizzazione
 results = solver_manager.solve(instance)
