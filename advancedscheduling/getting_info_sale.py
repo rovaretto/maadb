@@ -8,7 +8,7 @@ from pyomo.opt import SolverManagerFactory
 
 from advancedscheduling.model import model
 
-urlRiak = 'http://172.30.0.2:8098/riak/'
+urlRiak = 'http://localhost:8098/riak/'
 
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 
