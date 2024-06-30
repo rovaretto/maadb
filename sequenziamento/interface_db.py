@@ -201,7 +201,7 @@ def save_result(result, data, giorno):
         sala = result.o[i]
         print(sala)
         start_time = convertToHours(value(result.c[i]) - data['p'][i])
-        # Utilizzare $set per aggiornare direttamente la chiave
+
         filtro = {
             "giorno": giorno,
             f"patient_for_today.{sala}._id": ObjectId(i)
@@ -223,11 +223,13 @@ def save_result(result, data, giorno):
 def print_result_scheduling(giorno):
     giorno = f"\"{giorno}\""
     map_function = f"""
-        function() {{        
-                emit({{
-                giorno : this.giorno, 
-                scheduling : this.scheduling
-                }}, null);  
+        function() {{     
+               if(this.giorno == {giorno}){{
+                    emit({{
+                        giorno : this.giorno, 
+                        patient_for_today : this.patient_for_today
+                    }}, null); 
+              }} 
         }}
         """
 
@@ -238,13 +240,13 @@ def print_result_scheduling(giorno):
         """
 
     # Esegui la funzione di map-reduce
-    result_db = dbOspedale.command("mapReduce", "plan-for-today", map=map_function, reduce=reduce_function, out={"inline": 1})
+    result_db = dbOspedale.command("mapReduce", "plan-for-week", map=map_function, reduce=reduce_function, out={"inline": 1})
     result = {}
-    print(result_db)
+    #print(result_db)
     for doc in result_db['results']:
-        result[doc['_id']['sala']] = dict(sorted(doc['_id']['scheduling'].items(), key=lambda item: item[1]))
-
-    for a in result:
-       print(f"Giorno {a}")
-       for i in result[a]:
-            print(f"{i}: {result[a][i]}")
+        for sala, patients in doc['_id']['patient_for_today'].items():
+           result[sala] = sorted(patients, key=lambda x: x['operation_start_time'])
+    for sala, patients in result.items():
+        print(f"Sala {sala}:")
+        for patient in patients:
+            print(f"{patient['_id']}: {patient['operation_start_time']}")

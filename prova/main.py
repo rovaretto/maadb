@@ -30,5 +30,4 @@ print(len([item for item in plan_for_week.find()]))
 print(len([item for item in history.find()]))
 
 
-print(([item for item in plan_for_week.find({'giorno' : 'Lunedi'})]))
-
+print(([item for item in plan_for_week.find()]))

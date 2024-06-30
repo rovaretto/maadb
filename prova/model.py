@@ -1,52 +1,17 @@
-import pymongo
-from bson import ObjectId
+import datetime
+import locale
 
-myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+# Imposta la lingua italiana
+locale.setlocale(locale.LC_TIME, 'it_IT.utf8')
 
-dbOspedale = myclient["ospedale"]
+# Ottieni la data di oggi
+oggi = datetime.datetime.today()
 
-infoSale = dbOspedale["info-sale"]
-#lista dei pazienti con le loro info ancora da operare: PRIMA
-patient_waiting_list = dbOspedale["waiting-list"]
-#lista di tutte le operazioni presenti nell'ospedale con le relative durate
-duration_op = dbOspedale["duration-op"]
-#planning per la settimana in costruzione: DURANTE
-plan_for_week = dbOspedale["plan-for-week"]
-# storico di tutti i pazienti che sono stati operati: DOPO
-history = dbOspedale["operation-history"]
 
-pat = "668189b31ebb89530557e7b7"
+# Aggiungi un giorno
+one_day_later = oggi + datetime.timedelta(days=1)
 
-pipeline = [
-    {
-        "$project": {
-            "patient_for_today": {
-                "$objectToArray": "$patient_for_today"
-            }
-        }
-    },
-    {
-        "$unwind": "$patient_for_today"
-    },
-    {
-        "$unwind": "$patient_for_today.v"
-    },
-    {
-        "$match": {
-            "$expr": {
-                "$eq": ["$patient_for_today.v._id", ObjectId(pat)]
-            }
-        }
-    },
-    {
-        "$project": {
-            "_id": 0,
-            "opcode": "$patient_for_today.v.opcode"
-        }
-    }
-]
+# Ottieni il giorno della settimana in italiano
+giorno_settimana = one_day_later.strftime('%A')
 
-result = plan_for_week.aggregate(pipeline)
-
-print([item for item in result])
-print([item for item in plan_for_week.find()])
+print(giorno_settimana)
