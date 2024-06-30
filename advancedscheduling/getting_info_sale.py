@@ -18,7 +18,7 @@ patient_waiting_list = dbOspedale["waiting-list"]
 #lista di tutte le operazioni presenti nell'ospedale con le relative durate
 duration_op = dbOspedale["duration-op"]
 #planning per la settimana in costruzione: DURANTE
-plan_for_today = dbOspedale["plan-for-today"]
+plan_for_week = dbOspedale["plan-for-week"]
 # storico di tutti i pazienti che sono stati operati: DOPO
 history = dbOspedale["operation-history"]
 
@@ -195,7 +195,7 @@ os.environ['NEOS_EMAIL'] = 'emanuele.rovaretto@edu.unito.it'
 
 
 solver_manager = SolverFactory('cplex', executable="/opt/ibm/ILOG/CPLEX_Studio128/cplex/bin/x86-64_linux/cplex")
-solver_manager.options['timelimit'] = 1
+solver_manager.options['timelimit'] = 20
 
 # Risolvi il problema di ottimizzazione
 results = solver_manager.solve(instance)
@@ -203,9 +203,10 @@ results = solver_manager.solve(instance)
 
 #sposta il planning da attuale a storico
 for t in instance.T:
-    obj = plan_for_today.find_one({'giorno': t})
-    plan_for_today.delete_one(obj)
-    history.insert_one(obj)
+    obj = plan_for_week.find_one({'giorno': t})
+    if(obj is not None):
+        plan_for_week.delete_one(obj)
+        history.insert_one(obj)
 
 patient_for_sale = {}
 for t in instance.T:
@@ -219,8 +220,8 @@ for t in instance.T:
                 patient_waiting_list.delete_one({'_id': ObjectId(i)})
 
     obj = {'giorno' : t, 'patient_for_today' :patient_for_sale, 'numero_settimana': datetime.date.today().isocalendar()[1]}
-    plan_for_today.insert_one(obj)
-    print(plan_for_today.find_one({'giorno' : t}))
+    plan_for_week.insert_one(obj)
+    print(plan_for_week.find_one({'giorno' : t}))
 
 # {
 #         'nuovo_campo': 'valore',  # Nuova voce o aggiornamento della voce esistente

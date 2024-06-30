@@ -1,43 +1,52 @@
-#  ___________________________________________________________________________
-#
-#  Pyomo: Python Optimization Modeling Objects
-#  Copyright (c) 2008-2024
-#  National Technology and Engineering Solutions of Sandia, LLC
-#  Under the terms of Contract DE-NA0003525 with National Technology and
-#  Engineering Solutions of Sandia, LLC, the U.S. Government retains certain
-#  rights in this software.
-#  This software is distributed under the 3-clause BSD License.
-#  ___________________________________________________________________________
+import pymongo
+from bson import ObjectId
 
-# abstract2.py
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 
+dbOspedale = myclient["ospedale"]
 
-from pyomo.environ import *
+infoSale = dbOspedale["info-sale"]
+#lista dei pazienti con le loro info ancora da operare: PRIMA
+patient_waiting_list = dbOspedale["waiting-list"]
+#lista di tutte le operazioni presenti nell'ospedale con le relative durate
+duration_op = dbOspedale["duration-op"]
+#planning per la settimana in costruzione: DURANTE
+plan_for_week = dbOspedale["plan-for-week"]
+# storico di tutti i pazienti che sono stati operati: DOPO
+history = dbOspedale["operation-history"]
 
-model = AbstractModel()
+pat = "668189b31ebb89530557e7b7"
 
-model.I = Set()
-model.J = Set()
+pipeline = [
+    {
+        "$project": {
+            "patient_for_today": {
+                "$objectToArray": "$patient_for_today"
+            }
+        }
+    },
+    {
+        "$unwind": "$patient_for_today"
+    },
+    {
+        "$unwind": "$patient_for_today.v"
+    },
+    {
+        "$match": {
+            "$expr": {
+                "$eq": ["$patient_for_today.v._id", ObjectId(pat)]
+            }
+        }
+    },
+    {
+        "$project": {
+            "_id": 0,
+            "opcode": "$patient_for_today.v.opcode"
+        }
+    }
+]
 
-model.a = Param(model.I, model.J)
-model.b = Param(model.I)
-model.c = Param(model.J)
+result = plan_for_week.aggregate(pipeline)
 
-# the next line declares a variable indexed by the set J
-model.x = Var(model.J, domain=NonNegativeReals)
-
-
-def obj_expression(model):
-    return summation(model.c, model.x)
-
-
-model.OBJ = Objective(rule=obj_expression)
-
-
-def ax_constraint_rule(model, i):
-    # return the expression for the constraint for i
-    return sum(model.a[i, j] * model.x[j] for j in model.J) >= model.b[i]
-
-
-# the next line creates one constraint for each member of the set model.I
-model.AxbConstraint = Constraint(model.I, rule=ax_constraint_rule)
+print([item for item in result])
+print([item for item in plan_for_week.find()])
