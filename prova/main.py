@@ -1,10 +1,6 @@
-import pymongo
+import datetime
 
-myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+# Ottieni la data corrente
+week_number = datetime.date.today().isocalendar()[1]
 
-dbOspedale = myclient["ospedale"]
-
-infoSale = dbOspedale["info-sale"]
-patient_list = dbOspedale["waiting-list"]
-
-print(infoSale.find_one({'nome': 'D'},{"patientPerDay":1}))
+print(f"Oggi e siamo nella settimana numero {week_number} dell'anno.")

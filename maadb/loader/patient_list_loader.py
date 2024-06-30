@@ -7,10 +7,9 @@ myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 
 dbOspedale = myclient["ospedale"]
 
-patient_list = dbOspedale["waiting-list"]
-patient_list.drop()
+patient_waiting_list = dbOspedale["waiting-list"]
 
-urlRiak = 'http://localhost:8098/riak/ospedale1/' + "waiting-list"
+#urlRiak = 'http://localhost:8098/riak/ospedale1/' + "waiting-list"
 
 def load():
     waiting_list_opcode = [
@@ -89,41 +88,32 @@ def load():
         "Conti"
     ]
 
-    waiting_list = []
-    i = 0
+    patient_waiting_list.drop()
     for op in waiting_list_opcode:
-        patient_mongo = {'nome' : random.choice(nomi),
-                         'cognome' : random.choice(cognomi),
-                         'opcode': op
-                         }
-        ris = patient_list.insert_one(patient_mongo)
-        print(ris.inserted_id)
-        waiting_list.append(f'{ris.inserted_id}--{op}')
-        i += 1
-    print(i)
-    print(waiting_list)
-    requests.post(urlRiak, json=waiting_list)
-#
-# mongo1: 3 * 1000 = 3000
-# riak1: 1000 + 50 = 1050
-# mongo2: 3 * 1050 = 3150
-# riak2: 1000
-# mogno3: 3 * 1100 = 3300
-# riak3: 1000
-#
-# 1 accedi a riak e waiting-list
-# 2 computi il modello
-# 3 sai quali sono stati i pazienti ce verrano oiperati sta settimana
-# 4 pushi la waiti-list su riak
-# 5 accedi a mongo
-#
-# /////////
-# 1 accesso a un sacco di dati di mongo
+      patient_mongo = {'nome' : random.choice(nomi),
+                       'cognome' : random.choice(cognomi),
+                       'opcode': op
+                       }
+      patient_waiting_list.insert_one(patient_mongo)
+      print(patient_mongo)
+
+
+def insertPatient(nome, cognome, op):
+    patient_mongo = {'nome': nome,
+                     'cognome': cognome,
+                     'opcode': op
+                     }
+
+    patient_waiting_list.insert_one(patient_mongo)
+
+
+def getPatient(id):
+    from bson.objectid import ObjectId
+    return patient_waiting_list.find_one({'_id' : ObjectId(id)})
+
+
+#un paziente viene spostato quando viene sequenziato ( eliminato dalla waiting-list e inserito plan-for-today)
+def removePatient(id):
+    patient_waiting_list.delete_one({'_id':id})
 
 load()
-
-
-#
-# res = requests.get(url)
-# prova = res.json()
-# print(prova)

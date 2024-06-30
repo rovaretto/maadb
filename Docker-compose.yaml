@@ -16,7 +16,7 @@ services:
     ports:
       - '27017:27017'
     volumes:
-      - info-sale:/data/db
+      - mongo-db:/data/db
     networks:
       - global_net
 
@@ -25,6 +25,6 @@ networks:
     driver: bridge
 
 volumes:
-  info-sale:
+  mongo-db:
   schemas:
     external: false

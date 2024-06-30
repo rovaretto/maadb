@@ -2,6 +2,7 @@ import csv
 from io import StringIO
 
 import numpy
+import pymongo
 import requests
 from numpy import random
 
@@ -22,7 +23,7 @@ def extractDistribution(loc, specialty, typePatient):
     return opcode_data
 
 
-def caluclateDistribution(distribution):
+def calculateDistribution(distribution):
     opcode_distribution = {}
     for op in distribution:
         dist = distribution[op]
@@ -47,19 +48,20 @@ def caluclateDistribution(distribution):
         opcode_distribution[op] = numpy.ceil(totalTime)
     return opcode_distribution
 
+
 #genera pazienti di tutte le specialità
 def generateAllPatient():
     distribution = {}
     for loc in ['Basic & Regular', 'Maximum excl. University Clinics', 'Specialized']:
         for speciality in ['General', 'Gyn & Obstetrics', 'Otolaryngology', 'Trauma']:
             for typePatient in ['inpatient', 'outpatient']:
-                distribution[loc, speciality, typePatient] = caluclateDistribution(
+                distribution[loc, speciality, typePatient] = calculateDistribution(
                     extractDistribution(loc, speciality, typePatient))
 
     return distribution
 
-#genera pazienti con il minutaggio massimo per ogni specialità
-def generatePatientMaxMin():
+
+def generateOperationWithDuration():
     distribution = generateAllPatient()
     result = {}
     for patKey in distribution.keys():
@@ -68,16 +70,26 @@ def generatePatientMaxMin():
             result[key] = distribution[patKey][opCode]
     return result
 
-def hashing(key,opcode):
+
+def hashing(key, opcode):
     return key[0][0] + "-" + key[1][0] + key[1][1] + "-" + key[2][0] + "-" + opcode
 
-def loadRiak():
-    a = generatePatientMaxMin()
-    sum=0
-    for key in a:
-        url = 'http://localhost:8098/riak/patients/' + key
-        myobj = {'duration': a[key]}
-        x = requests.post(url, json=myobj)
 
+def loadOperation():
+    opcode_duration = generateOperationWithDuration()
+    duration_op.drop()
+    for opcode in opcode_duration:
+        agg = {'opcode': opcode, 'duration': opcode_duration[opcode]}
+        duration_op.insert_one(agg)
 
-loadRiak()
+def getDuration(opcode):
+    result = duration_op.find_one({'op':opcode})
+    return result['duration']
+
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+dbOspedale = myclient["ospedale"]
+duration_op = dbOspedale["duration-op"]
+
+loadOperation()
+
+# print(getDuration('S-Tr-o-5-841.14'))
