@@ -1,0 +1,154 @@
+/'
+ this Object will be used to define a container where is defined:
+
+   id: It is the unique name that identifies the new collection.
+   indexingPolicy: It is the indexing policy settings for collection.
+   partitionKey: It is the partitioning configuration settings for collection.
+   OCC (_etag): It is a system generated property representing the resource etag required for optimistic concurrency control [Yes/No].
+'/
+
+
+skinparam Default{
+    Font {
+        Name Roboto Mono
+        Size 16
+        Style Normal
+        Color #000000
+    }
+
+    TextAlignment Left
+}
+
+skinparam Note {
+    Font {
+        Name Roboto Mono
+        Size 16
+        Style Normal
+    }
+
+    BorderColor #515151
+    BackgroundColor #FEFECE
+    TextAlignment Left
+}
+
+skinparam class {
+    BackgroundColor #f1f9fd
+    TextAlignment Left
+    BorderColor #325b97
+
+    Border {
+        Thickness 2.5
+    }
+
+    Font {
+        Name Roboto Mono
+        Size 16
+        Color #325b97
+        Style Bold
+    }
+
+    BackgroundColor<<main>> #ffd2d2
+    BorderColor<<main>> #ee807f
+    FontColor<<main>> #000000
+    BackgroundColor<<enum>> #faf0ca
+    BorderColor<<enum>> #c7b054
+    FontColor<<enum>> #000000
+
+    BackgroundColor<<embedded>> #e5f3fc
+    BorderColor<<embedded>> #325b97
+    FontColor<<embedded>> #325b97
+
+    
+}
+
+
+
+skinparam package {
+    Font {
+        Name Roboto Mono
+        Size 18
+        Color #666666
+        Style Bold
+    }
+
+    BorderColor #666666
+    TextAlignment Left
+    LineThickness 2.5
+}
+
+skinparam shadowing false
+skinparam RoundCorner 10
+skinparam ParticipantBorderColor #325b97
+
+skinparam Arrow {
+    Color #325b97
+    Thickness 2.5
+
+    Font {
+        Name Roboto Mono
+        Size 14
+        Color #325b97
+        Style Bold
+    }
+
+    Lollipop {
+        Color #325b97
+    }
+}
+
+'/ Start Macros/'
+!procedure AddCopyright()
+center footer
+<font color=red>CONFIDENTIAL:</font> Do not release or distribute without the approval of Rx Renewal. Copyright of Walgreens Boots Alliance, Inc.
+endfooter
+
+!endprocedure
+'/ End Macros/'
+
+!define Collection(id,indexingPolicy,partitionKey,OCC) package "Id = [id] \n IndexingPolicy = [indexingPolicy] \n PartitionKey = [partitionKey] \n OptimisticLock = [OCC]" #f2f2f1
+!define Collection(id,indexingPolicy,partitionKey,OCC,TTL) package "Id = [id] \n IndexingPolicy = [indexingPolicy] \n PartitionKey = [partitionKey] \n OptimisticLock = [OCC] \n TimeToLive = [TTL]" #f2f2f1
+
+
+' this Object will be used to define a contract in a container.
+!define Document(name) package "name" <<Frame>> #ffffff
+
+' this Object will be used to define a contract in a container.
+!define Document(name, domain ,version) package "name version" <<Frame>> #ffffff
+
+' this Object will be used to define a Enumeration.
+!define EnumDefBlock(x) package "x" <<Frame>> #F5F5F5
+!define Enum(name,desc) class name as "desc" << (T,#faf0ca) >> 
+
+
+' this object will be used for define a main entity in a contract
+!define Entity(name,desc) class name as "desc" << (E,#ffd2d2) >> 
+
+!define EmbeddedEntity(name,desc) class name as "desc" << (I,#e5f3fc) >> 
+!define RelatedEntity(name,desc) class name as "desc" << (R,#00AA00) >> #00AA00
+
+
+!define partitionKey(x) <b>(pk)\t x</b>
+!define idKey(x) <b><i>\t x</i></b>
+!define required(x) (*)\t x
+!define field(x) \t x
+!define fieldList(nameField,x) \t nameField <i>Array</i>(<b>x</b>)
+!define fieldListRq(nameField,x) <b>(*)\t nameField <i>Array</i>(x)</b>
+!define fieldListRqIdx(nameField,x) (*i)\t nameField <i>Array</i>(x)
+!define fieldListIdx(nameField,x) (i)\t nameField <i>Array</i>(x)
+!define indexed(x) (i)\t x
+!define idxRequired(x) (*i)\t x
+!define AzureSearch(x) (s)\t x
+!define AzureSearchRq(x) (*s)\t x
+!define Typology(x) <b>x</b>
+!define referencing(x) <b>x</b>
+!define embeddedList(nameField,x) \t nameField <i>Array</i>(<b>x</b>)
+!define embeddedRq(nameField,x) <b>(*)\t nameField <color:blue>x</color></b>
+!define embeddedListIdx(nameField,x) (i)\t nameField <i>Array</i>(<color:blue>x</color>)
+!define embeddedListRq(nameField,x) <b>(*)\t nameField <i>Array</i>(<color:blue>x</color>)</b>
+!define embeddedListRqIdx(nameField,x) <b>(*i)\t nameField <i>Array</i>(<color:blue>x</color>)</b>
+!define embedded(nameField,x) \t nameField <color:blue>x</color>
+!define RelatedList(nameField,x) \t nameField <i>Array</i>(<color:blue>x.Id</color>)
+!define RelatedListRq(nameField,x) <b>(*)\t nameField <i>Array</i>(<color:blue>x.Id</color>)
+!define RelatedId(nameField,x) \t nameField <color:blue>x.Id</color>
+
+hide stereotypes

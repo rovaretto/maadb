@@ -1,0 +1,23 @@
+/' Copyright 2020 Walgreen Co. '/
+@startuml
+
+!include define.puml
+
+
+skinparam linetype ortho
+
+      Document(Duration-op,Duration-op,v1){
+          Entity(Duration,"Duration-op")<<main>>{
+            idKey(_id) 
+            embeddedListRq(duration-info, DurationInfo)
+            ==
+          }
+
+          EmbeddedEntity(DurationInfo, DurationInfo)<<embedded>>{
+            field(opcode) String
+            field(duration) String
+            ==
+          }
+      }
+    Duration "1" --> "1..N" DurationInfo
+@enduml

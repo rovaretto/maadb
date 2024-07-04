@@ -1,0 +1,19 @@
+/' Copyright 2020 Walgreen Co. '/
+@startuml
+
+!include define.puml
+
+
+skinparam linetype ortho
+
+      Document(Hospital,Hospital,v1){
+          Entity(Hospital,"Hospital")<<main>>{
+            idKey(_id) 
+            field(name) String
+            field(city) String
+            field(address) String
+            fieldList(saleList, InfoSala) 
+            ==
+          }
+      }
+@enduml

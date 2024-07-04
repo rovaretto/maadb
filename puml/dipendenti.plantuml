@@ -1,0 +1,18 @@
+/' Copyright 2020 Walgreen Co. '/
+@startuml
+
+!include define.puml
+
+
+skinparam linetype ortho
+
+      Document(Employee,Employee,v1){
+          Entity(Employee,"Employee")<<main>>{
+            idKey(_id) 
+            field(name) String
+            field(surname) String
+            field(profession) String
+            ==
+          }
+      }
+@enduml

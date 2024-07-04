@@ -1,0 +1,53 @@
+/' Copyright 2020 Walgreen Co. '/
+@startuml
+
+!include define.puml
+
+
+skinparam linetype ortho
+
+      Document(Info-sala,Info-sala,v1){
+          Entity(Sala,"Info-sala")<<main>>{
+            idKey(_id) 
+            field(operationRoomCode) String 
+            fieldList(openingDays,String)
+            embeddedListRq(specialities, SpecialityToday)
+            embeddedListRq(openingHours, OpeningHour)
+            embeddedListRq(closingHours, ClosingHour)
+            embeddedListRq(equipes, EquipeForToday)
+            ==
+          }
+
+          EmbeddedEntity(SpecialityToday,SpecialityToday)<<embedded>>{
+            field(day) String
+            field(speciality) String
+            ==
+          }
+
+          EmbeddedEntity(OpeningHour,OpeningHour)<<embedded>>{
+            field(day) String
+            field(openingHour) Hour
+            ==
+          }
+
+
+          EmbeddedEntity(ClosingHour,ClosingHour)<<embedded>>{
+            field(day) String
+            field(closingHour) Hour
+            ==
+          }
+
+          EmbeddedEntity(EquipeForToday,EquipeForToday)<<embedded>>{
+            field(day) String
+            fieldList(surgeon, String) 
+            fieldList(anesthetist,String) 
+            fieldList(nurse,String) 
+            ==
+          }
+
+      }
+    Sala "0..N" --> "0..N" SpecialityToday
+    Sala "0..N" --> "0..N" OpeningHour
+    Sala "0..N" --> "0..N" ClosingHour
+    Sala "0..N" --> "0..N" EquipeForToday
+@enduml

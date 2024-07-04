@@ -1,0 +1,42 @@
+/' Copyright 2020 Walgreen Co. '/
+@startuml
+
+!include define.puml
+
+note as N
+    <b>Bucket</b>:
+     NomeOspedale
+    <b>Key</b>:
+     Today
+  end note
+
+skinparam linetype ortho
+
+      Document(Plan-for-today,Plan-for-today,v1){
+          Entity(Plan, "Plan-for-today")<<embedded>>{
+            field(day) String
+            field(numWeek) String
+            embeddedListRq(patientForSala, PatientForSala)
+            ==
+          }
+
+          EmbeddedEntity(PatientForSala,PatientForSala)<<embedded>>{
+            idKey(_id) 
+            field(sala) String
+            embeddedListRq(patientList, Patient)
+            ==
+          }
+
+          EmbeddedEntity(Patient, Patient)<<embedded>>{
+            field(name) String
+            field(surname) String
+            field(opcode) String
+            field(operation_start_time) Hour
+            ==
+          }
+
+
+      }
+    Plan "1" --> "1..N" PatientForSala
+    PatientForSala "1" --> "1..N" Patient
+@enduml

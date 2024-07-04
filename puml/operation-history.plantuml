@@ -1,0 +1,81 @@
+/' Copyright 2020 Walgreen Co. '/
+@startuml
+
+!include define.puml
+
+
+skinparam linetype ortho
+
+      Document(Operation-history,Operation-history,v1){
+          Entity(History,"Operation-history")<<main>>{
+            idKey(_id) 
+            field(day) String
+            field(numWeek) String
+            embeddedListRq(patientForToday, PatientForToday)
+            ==
+          }
+
+          EmbeddedEntity(PatientForToday, PatientForToday)<<embedded>>{
+            field(sala) String
+            embeddedListRq(patientForSala, PatientForSala)
+            ==
+          }
+
+          EmbeddedEntity(PatientForSala,PatientForSala)<<embedded>>{
+            idKey(_id) 
+            field(name) String
+            field(surname) String
+            field(opcode) String
+            field(operation_start_time) Hour
+            ==
+          }
+
+
+      }
+    History "1" --> "1" PatientForToday
+    PatientForToday "1" --> "1..N" PatientForSala
+@enduml
+
+/' Copyright 2020 Walgreen Co. '/
+@startuml
+
+!include define.puml
+
+
+skinparam linetype ortho
+
+      Document(Operation-history,Operation-history,v1){
+          Entity(History,"Operation-history")<<main>>{
+            idKey(_id) 
+            embeddedListRq(planList, Plan)
+            ==
+          }
+
+          EmbeddedEntity(Plan, Plan)<<embedded>>{
+            field(day) String
+            field(numWeek) String
+            embeddedListRq(patientForSala, PatientForSala)
+            ==
+          }
+
+          EmbeddedEntity(PatientForSala,PatientForSala)<<embedded>>{
+            idKey(_id) 
+            field(sala) String
+            embeddedListRq(patientList, Patient)
+            ==
+          }
+
+          EmbeddedEntity(Patient, Patient)<<embedded>>{
+            field(name) String
+            field(surname) String
+            field(opcode) String
+            field(operation_start_time) Hour
+            ==
+          }
+
+
+      }
+    History "1" --> "1..N" Plan
+    Plan "1" --> "1..N" PatientForSala
+    PatientForSala "1" --> "1..N" Patient
+@enduml
